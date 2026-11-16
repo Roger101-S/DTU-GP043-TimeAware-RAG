@@ -1,0 +1,204 @@
+[
+ {
+  "id": "H01",
+  "text": "Clinic visit on 3 March 2021. BP 148/92, advised salt restriction.",
+  "filed_date": null,
+  "expected_doc_date": "2021-03-03",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H02",
+  "text": "Visit date: 2020-11-19. Patient reports mild cough for one week.",
+  "filed_date": null,
+  "expected_doc_date": "2020-11-19",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H03",
+  "text": "Seen on October 5, 2022. HbA1c 7.1%, metformin continued.",
+  "filed_date": null,
+  "expected_doc_date": "2022-10-05",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H04",
+  "text": "Date of consultation: 12/05/2023. TSH 6.2 mIU/L.",
+  "filed_date": null,
+  "expected_doc_date": "2023-05-12",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H05",
+  "text": "Date of consultation: 03-04-2020. Wound healing well.",
+  "filed_date": null,
+  "expected_doc_date": "2020-04-03",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H06",
+  "text": "Reviewed on 14.08.2019. Hemoglobin 10.2 g/dL, iron started.",
+  "filed_date": null,
+  "expected_doc_date": "2019-08-14",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H07",
+  "text": "Seen 14 Mar 2022 for follow-up of asthma.",
+  "filed_date": null,
+  "expected_doc_date": "2022-03-14",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H08",
+  "text": "Seen on 3rd March 2021. Routine check, no new complaints.",
+  "filed_date": null,
+  "expected_doc_date": "2021-03-03",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H09",
+  "text": "Outpatient review, Mar 3, 2021. Peak flow 82% of predicted.",
+  "filed_date": null,
+  "expected_doc_date": "2021-03-03",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H10",
+  "text": "Clinic visit on 27 September 2024. Previous review was 3 months ago. Hypertension stage 2.",
+  "filed_date": null,
+  "expected_doc_date": "2024-09-27",
+  "expected_source": "text",
+  "expected_mentions": [
+   "2024-06-27"
+  ]
+ },
+ {
+  "id": "H11",
+  "text": "Visit date: 2018-01-09. Vaccination record updated on 5 June 2016.",
+  "filed_date": null,
+  "expected_doc_date": "2018-01-09",
+  "expected_source": "text",
+  "expected_mentions": [
+   "2016-06-05"
+  ]
+ },
+ {
+  "id": "H12",
+  "text": "Clinic visit on 8 July 2025. Diagnosed in 2019 with type 2 diabetes; HbA1c 7.8%.",
+  "filed_date": null,
+  "expected_doc_date": "2025-07-08",
+  "expected_source": "text",
+  "expected_mentions": [
+   "2019-01-01"
+  ]
+ },
+ {
+  "id": "H13",
+  "text": "Seen on January 30, 2023. Started iron supplements 2 weeks ago.",
+  "filed_date": null,
+  "expected_doc_date": "2023-01-30",
+  "expected_source": "text",
+  "expected_mentions": [
+   "2023-01-16"
+  ]
+ },
+ {
+  "id": "H14",
+  "text": "Date of consultation: 01/12/2021. Follow-up in 6 weeks.",
+  "filed_date": null,
+  "expected_doc_date": "2021-12-01",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H15",
+  "text": "Consultation 22 November 2019 - hypothyroidism, levothyroxine 50 mcg.",
+  "filed_date": null,
+  "expected_doc_date": "2019-11-22",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H16",
+  "text": "Date: 2024-02-29. Annual review, weight stable.",
+  "filed_date": null,
+  "expected_doc_date": "2024-02-29",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H17",
+  "text": "Clinic visit on 15 August 2022; patient is a 54-year-old male with elevated BP.",
+  "filed_date": null,
+  "expected_doc_date": "2022-08-15",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H18",
+  "text": "Patient seen in June 2021 for asthma review.",
+  "filed_date": null,
+  "expected_doc_date": "2021-06-01",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H19",
+  "text": "Review dated 7th of April 2023: chest clear.",
+  "filed_date": null,
+  "expected_doc_date": "2023-04-07",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H20",
+  "text": "Telephone consult on 31 December 2020. Symptoms resolved.",
+  "filed_date": null,
+  "expected_doc_date": "2020-12-31",
+  "expected_source": "text",
+  "expected_mentions": []
+ },
+ {
+  "id": "H21",
+  "text": "Routine follow-up, no date recorded in the note body. Blood pressure stable.",
+  "filed_date": "2022-05-17",
+  "expected_doc_date": "2022-05-17",
+  "expected_source": "fallback",
+  "expected_mentions": []
+ },
+ {
+  "id": "H22",
+  "text": "Patient reports symptoms started 2 weeks ago, seen today for review.",
+  "filed_date": "2021-09-02",
+  "expected_doc_date": "2021-09-02",
+  "expected_source": "fallback",
+  "expected_mentions": []
+ },
+ {
+  "id": "H23",
+  "text": "Visit date: 2023-07-04. Seen again on 18 July 2023 by the nurse for dressing change.",
+  "filed_date": null,
+  "expected_doc_date": "2023-07-04",
+  "expected_source": "text",
+  "expected_mentions": [
+   "2023-07-18"
+  ]
+ },
+ {
+  "id": "H24",
+  "text": "Clinic visit on 9 February 2026. Anemia resolved; hemoglobin 13.1 g/dL.",
+  "filed_date": null,
+  "expected_doc_date": "2026-02-09",
+  "expected_source": "text",
+  "expected_mentions": []
+ }
+]

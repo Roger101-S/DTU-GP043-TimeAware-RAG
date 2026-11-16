@@ -1,0 +1,4444 @@
+{
+ "P001-N01": {
+  "visit_date": "2018-12-23",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P001-N02": {
+  "visit_date": "2019-02-24",
+  "annotations": []
+ },
+ "P001-N03": {
+  "visit_date": "2019-07-26",
+  "annotations": []
+ },
+ "P001-N04": {
+  "visit_date": "2020-07-03",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P001-N05": {
+  "visit_date": "2020-09-30",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P001-N06": {
+  "visit_date": "2021-01-31",
+  "annotations": []
+ },
+ "P001-N07": {
+  "visit_date": "2022-09-25",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P001-N08": {
+  "visit_date": "2024-02-12",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P001-N09": {
+  "visit_date": "2024-08-15",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P001-N10": {
+  "visit_date": "2025-08-03",
+  "annotations": []
+ },
+ "P002-N01": {
+  "visit_date": "2018-01-03",
+  "annotations": []
+ },
+ "P002-N02": {
+  "visit_date": "2018-03-21",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P002-N03": {
+  "visit_date": "2019-04-04",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P002-N04": {
+  "visit_date": "2019-09-19",
+  "annotations": []
+ },
+ "P002-N05": {
+  "visit_date": "2019-10-24",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P002-N06": {
+  "visit_date": "2020-09-07",
+  "annotations": []
+ },
+ "P002-N07": {
+  "visit_date": "2021-06-13",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P002-N08": {
+  "visit_date": "2021-08-20",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P002-N09": {
+  "visit_date": "2022-01-26",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P002-N10": {
+  "visit_date": "2022-03-12",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P002-N11": {
+  "visit_date": "2023-06-25",
+  "annotations": []
+ },
+ "P002-N12": {
+  "visit_date": "2023-12-13",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P002-N13": {
+  "visit_date": "2024-01-19",
+  "annotations": []
+ },
+ "P002-N14": {
+  "visit_date": "2024-09-19",
+  "annotations": []
+ },
+ "P003-N01": {
+  "visit_date": "2018-02-02",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P003-N02": {
+  "visit_date": "2018-10-09",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P003-N03": {
+  "visit_date": "2019-10-09",
+  "annotations": []
+ },
+ "P003-N04": {
+  "visit_date": "2020-09-27",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P003-N05": {
+  "visit_date": "2021-03-13",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P003-N06": {
+  "visit_date": "2021-05-24",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   },
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P003-N07": {
+  "visit_date": "2021-11-30",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P003-N08": {
+  "visit_date": "2022-02-22",
+  "annotations": []
+ },
+ "P003-N09": {
+  "visit_date": "2022-11-30",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P003-N10": {
+  "visit_date": "2023-12-07",
+  "annotations": []
+ },
+ "P003-N11": {
+  "visit_date": "2024-02-04",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P003-N12": {
+  "visit_date": "2024-11-10",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P003-N13": {
+  "visit_date": "2025-05-02",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P004-N01": {
+  "visit_date": "2018-04-22",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P004-N02": {
+  "visit_date": "2018-07-25",
+  "annotations": []
+ },
+ "P004-N03": {
+  "visit_date": "2018-12-10",
+  "annotations": []
+ },
+ "P004-N04": {
+  "visit_date": "2019-07-10",
+  "annotations": []
+ },
+ "P004-N05": {
+  "visit_date": "2020-01-15",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P004-N06": {
+  "visit_date": "2020-12-01",
+  "annotations": []
+ },
+ "P004-N07": {
+  "visit_date": "2021-09-02",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P004-N08": {
+  "visit_date": "2022-04-02",
+  "annotations": []
+ },
+ "P004-N09": {
+  "visit_date": "2022-06-02",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P004-N10": {
+  "visit_date": "2022-10-22",
+  "annotations": []
+ },
+ "P004-N11": {
+  "visit_date": "2023-03-07",
+  "annotations": []
+ },
+ "P004-N12": {
+  "visit_date": "2024-04-30",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P004-N13": {
+  "visit_date": "2024-08-21",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P004-N14": {
+  "visit_date": "2025-03-17",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P004-N15": {
+  "visit_date": "2025-06-08",
+  "annotations": []
+ },
+ "P005-N01": {
+  "visit_date": "2018-12-15",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P005-N02": {
+  "visit_date": "2019-05-01",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P005-N03": {
+  "visit_date": "2020-07-13",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P005-N04": {
+  "visit_date": "2020-10-13",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P005-N05": {
+  "visit_date": "2022-04-08",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P005-N06": {
+  "visit_date": "2022-09-01",
+  "annotations": []
+ },
+ "P005-N07": {
+  "visit_date": "2023-01-20",
+  "annotations": []
+ },
+ "P005-N08": {
+  "visit_date": "2023-11-11",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P005-N09": {
+  "visit_date": "2024-04-04",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P005-N10": {
+  "visit_date": "2024-09-07",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P005-N11": {
+  "visit_date": "2024-10-19",
+  "annotations": []
+ },
+ "P005-N12": {
+  "visit_date": "2024-12-08",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P006-N01": {
+  "visit_date": "2018-04-13",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P006-N02": {
+  "visit_date": "2018-09-16",
+  "annotations": []
+ },
+ "P006-N03": {
+  "visit_date": "2019-03-20",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P006-N04": {
+  "visit_date": "2020-06-25",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P006-N05": {
+  "visit_date": "2020-08-15",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P006-N06": {
+  "visit_date": "2021-09-05",
+  "annotations": []
+ },
+ "P006-N07": {
+  "visit_date": "2022-03-02",
+  "annotations": []
+ },
+ "P006-N08": {
+  "visit_date": "2023-04-16",
+  "annotations": []
+ },
+ "P006-N09": {
+  "visit_date": "2024-04-18",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P006-N10": {
+  "visit_date": "2024-11-03",
+  "annotations": []
+ },
+ "P006-N11": {
+  "visit_date": "2024-12-12",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P006-N12": {
+  "visit_date": "2025-02-28",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P006-N13": {
+  "visit_date": "2025-04-06",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P006-N14": {
+  "visit_date": "2025-07-27",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P007-N01": {
+  "visit_date": "2018-06-04",
+  "annotations": []
+ },
+ "P007-N02": {
+  "visit_date": "2018-11-13",
+  "annotations": []
+ },
+ "P007-N03": {
+  "visit_date": "2019-02-19",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P007-N04": {
+  "visit_date": "2019-07-18",
+  "annotations": []
+ },
+ "P007-N05": {
+  "visit_date": "2019-09-27",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": true
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P007-N06": {
+  "visit_date": "2020-01-09",
+  "annotations": []
+ },
+ "P007-N07": {
+  "visit_date": "2020-02-26",
+  "annotations": []
+ },
+ "P007-N08": {
+  "visit_date": "2020-05-27",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P007-N09": {
+  "visit_date": "2020-07-16",
+  "annotations": []
+ },
+ "P007-N10": {
+  "visit_date": "2021-04-26",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": true
+   },
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P007-N11": {
+  "visit_date": "2021-10-31",
+  "annotations": []
+ },
+ "P007-N12": {
+  "visit_date": "2023-06-15",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P007-N13": {
+  "visit_date": "2023-09-11",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P007-N14": {
+  "visit_date": "2023-11-27",
+  "annotations": []
+ },
+ "P007-N15": {
+  "visit_date": "2024-01-20",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   },
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P007-N16": {
+  "visit_date": "2025-06-04",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P008-N01": {
+  "visit_date": "2018-11-20",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P008-N02": {
+  "visit_date": "2019-05-28",
+  "annotations": []
+ },
+ "P008-N03": {
+  "visit_date": "2020-03-15",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P008-N04": {
+  "visit_date": "2020-07-12",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P008-N05": {
+  "visit_date": "2020-10-23",
+  "annotations": []
+ },
+ "P008-N06": {
+  "visit_date": "2021-01-29",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P008-N07": {
+  "visit_date": "2021-03-09",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P008-N08": {
+  "visit_date": "2021-05-25",
+  "annotations": []
+ },
+ "P008-N09": {
+  "visit_date": "2021-11-18",
+  "annotations": []
+ },
+ "P008-N10": {
+  "visit_date": "2023-10-27",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P008-N11": {
+  "visit_date": "2024-03-06",
+  "annotations": []
+ },
+ "P008-N12": {
+  "visit_date": "2025-01-04",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P008-N13": {
+  "visit_date": "2025-02-14",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P009-N01": {
+  "visit_date": "2018-05-10",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P009-N02": {
+  "visit_date": "2019-03-27",
+  "annotations": []
+ },
+ "P009-N03": {
+  "visit_date": "2019-08-29",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": true
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P009-N04": {
+  "visit_date": "2019-11-30",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": true
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P009-N05": {
+  "visit_date": "2020-09-19",
+  "annotations": []
+ },
+ "P009-N06": {
+  "visit_date": "2022-04-07",
+  "annotations": []
+ },
+ "P009-N07": {
+  "visit_date": "2023-05-22",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P009-N08": {
+  "visit_date": "2023-11-18",
+  "annotations": []
+ },
+ "P009-N09": {
+  "visit_date": "2024-06-03",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P009-N10": {
+  "visit_date": "2024-07-18",
+  "annotations": []
+ },
+ "P009-N11": {
+  "visit_date": "2024-12-13",
+  "annotations": []
+ },
+ "P009-N12": {
+  "visit_date": "2025-01-20",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P009-N13": {
+  "visit_date": "2025-08-20",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P010-N01": {
+  "visit_date": "2018-11-20",
+  "annotations": []
+ },
+ "P010-N02": {
+  "visit_date": "2020-07-14",
+  "annotations": []
+ },
+ "P010-N03": {
+  "visit_date": "2020-09-23",
+  "annotations": []
+ },
+ "P010-N04": {
+  "visit_date": "2020-10-30",
+  "annotations": []
+ },
+ "P010-N05": {
+  "visit_date": "2020-12-30",
+  "annotations": []
+ },
+ "P010-N06": {
+  "visit_date": "2021-05-13",
+  "annotations": []
+ },
+ "P010-N07": {
+  "visit_date": "2021-12-22",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": true
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P010-N08": {
+  "visit_date": "2022-03-09",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P010-N09": {
+  "visit_date": "2022-06-14",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P010-N10": {
+  "visit_date": "2022-07-22",
+  "annotations": []
+ },
+ "P010-N11": {
+  "visit_date": "2023-02-24",
+  "annotations": []
+ },
+ "P010-N12": {
+  "visit_date": "2023-11-27",
+  "annotations": []
+ },
+ "P010-N13": {
+  "visit_date": "2024-05-03",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P010-N14": {
+  "visit_date": "2024-12-13",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P010-N15": {
+  "visit_date": "2025-09-02",
+  "annotations": []
+ },
+ "P010-N16": {
+  "visit_date": "2025-10-26",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P011-N01": {
+  "visit_date": "2018-10-11",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P011-N02": {
+  "visit_date": "2019-07-25",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P011-N03": {
+  "visit_date": "2019-09-24",
+  "annotations": []
+ },
+ "P011-N04": {
+  "visit_date": "2020-09-18",
+  "annotations": []
+ },
+ "P011-N05": {
+  "visit_date": "2020-10-31",
+  "annotations": []
+ },
+ "P011-N06": {
+  "visit_date": "2021-05-25",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   },
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P011-N07": {
+  "visit_date": "2022-08-03",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": true
+   },
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P011-N08": {
+  "visit_date": "2022-09-30",
+  "annotations": []
+ },
+ "P011-N09": {
+  "visit_date": "2023-08-08",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P011-N10": {
+  "visit_date": "2025-02-07",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P011-N11": {
+  "visit_date": "2025-05-21",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": true
+   },
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P011-N12": {
+  "visit_date": "2025-07-19",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P011-N13": {
+  "visit_date": "2025-10-08",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P012-N01": {
+  "visit_date": "2018-05-13",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": true
+   },
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P012-N02": {
+  "visit_date": "2018-12-23",
+  "annotations": []
+ },
+ "P012-N03": {
+  "visit_date": "2019-04-26",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P012-N04": {
+  "visit_date": "2020-05-09",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P012-N05": {
+  "visit_date": "2020-08-28",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": true
+   },
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P012-N06": {
+  "visit_date": "2020-10-10",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P012-N07": {
+  "visit_date": "2020-12-12",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P012-N08": {
+  "visit_date": "2021-05-04",
+  "annotations": []
+ },
+ "P012-N09": {
+  "visit_date": "2021-11-28",
+  "annotations": []
+ },
+ "P012-N10": {
+  "visit_date": "2022-12-04",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P012-N11": {
+  "visit_date": "2023-01-17",
+  "annotations": []
+ },
+ "P013-N01": {
+  "visit_date": "2018-02-18",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": true
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P013-N02": {
+  "visit_date": "2018-09-10",
+  "annotations": []
+ },
+ "P013-N03": {
+  "visit_date": "2018-12-11",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P013-N04": {
+  "visit_date": "2019-02-22",
+  "annotations": []
+ },
+ "P013-N05": {
+  "visit_date": "2019-05-13",
+  "annotations": []
+ },
+ "P013-N06": {
+  "visit_date": "2019-06-20",
+  "annotations": []
+ },
+ "P013-N07": {
+  "visit_date": "2019-07-27",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P013-N08": {
+  "visit_date": "2020-03-22",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P013-N09": {
+  "visit_date": "2020-06-29",
+  "annotations": []
+ },
+ "P013-N10": {
+  "visit_date": "2022-03-05",
+  "annotations": []
+ },
+ "P013-N11": {
+  "visit_date": "2022-06-29",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P013-N12": {
+  "visit_date": "2025-01-25",
+  "annotations": []
+ },
+ "P013-N13": {
+  "visit_date": "2025-03-25",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P013-N14": {
+  "visit_date": "2025-09-12",
+  "annotations": []
+ },
+ "P014-N01": {
+  "visit_date": "2018-01-16",
+  "annotations": []
+ },
+ "P014-N02": {
+  "visit_date": "2018-08-12",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P014-N03": {
+  "visit_date": "2018-12-25",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P014-N04": {
+  "visit_date": "2019-02-02",
+  "annotations": []
+ },
+ "P014-N05": {
+  "visit_date": "2019-09-22",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P014-N06": {
+  "visit_date": "2020-03-28",
+  "annotations": []
+ },
+ "P014-N07": {
+  "visit_date": "2021-04-21",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P014-N08": {
+  "visit_date": "2022-01-17",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P014-N09": {
+  "visit_date": "2022-10-18",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P014-N10": {
+  "visit_date": "2023-05-22",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P014-N11": {
+  "visit_date": "2023-07-04",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P014-N12": {
+  "visit_date": "2024-03-01",
+  "annotations": []
+ },
+ "P014-N13": {
+  "visit_date": "2024-05-30",
+  "annotations": []
+ },
+ "P014-N14": {
+  "visit_date": "2024-09-24",
+  "annotations": []
+ },
+ "P014-N15": {
+  "visit_date": "2025-01-04",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P014-N16": {
+  "visit_date": "2025-06-04",
+  "annotations": []
+ },
+ "P015-N01": {
+  "visit_date": "2018-01-31",
+  "annotations": []
+ },
+ "P015-N02": {
+  "visit_date": "2019-02-24",
+  "annotations": []
+ },
+ "P015-N03": {
+  "visit_date": "2021-03-03",
+  "annotations": []
+ },
+ "P015-N04": {
+  "visit_date": "2021-05-07",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P015-N05": {
+  "visit_date": "2022-03-13",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P015-N06": {
+  "visit_date": "2022-06-15",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P015-N07": {
+  "visit_date": "2023-09-27",
+  "annotations": []
+ },
+ "P015-N08": {
+  "visit_date": "2024-04-18",
+  "annotations": []
+ },
+ "P015-N09": {
+  "visit_date": "2024-07-22",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P015-N10": {
+  "visit_date": "2024-08-29",
+  "annotations": []
+ },
+ "P015-N11": {
+  "visit_date": "2024-10-30",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P015-N12": {
+  "visit_date": "2024-12-29",
+  "annotations": []
+ },
+ "P015-N13": {
+  "visit_date": "2025-04-05",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P015-N14": {
+  "visit_date": "2025-06-06",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P016-N01": {
+  "visit_date": "2018-01-12",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P016-N02": {
+  "visit_date": "2018-02-22",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": true
+   },
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P016-N03": {
+  "visit_date": "2018-12-31",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P016-N04": {
+  "visit_date": "2019-03-29",
+  "annotations": []
+ },
+ "P016-N05": {
+  "visit_date": "2020-04-30",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P016-N06": {
+  "visit_date": "2020-08-18",
+  "annotations": []
+ },
+ "P016-N07": {
+  "visit_date": "2021-09-16",
+  "annotations": []
+ },
+ "P016-N08": {
+  "visit_date": "2023-05-23",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P016-N09": {
+  "visit_date": "2023-07-27",
+  "annotations": []
+ },
+ "P016-N10": {
+  "visit_date": "2024-02-24",
+  "annotations": []
+ },
+ "P016-N11": {
+  "visit_date": "2025-07-14",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P016-N12": {
+  "visit_date": "2025-09-19",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   },
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P017-N01": {
+  "visit_date": "2018-06-16",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P017-N02": {
+  "visit_date": "2018-11-02",
+  "annotations": []
+ },
+ "P017-N03": {
+  "visit_date": "2019-05-04",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P017-N04": {
+  "visit_date": "2019-06-17",
+  "annotations": []
+ },
+ "P017-N05": {
+  "visit_date": "2019-10-22",
+  "annotations": []
+ },
+ "P017-N06": {
+  "visit_date": "2019-12-13",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P017-N07": {
+  "visit_date": "2020-02-05",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P017-N08": {
+  "visit_date": "2020-12-18",
+  "annotations": []
+ },
+ "P017-N09": {
+  "visit_date": "2021-02-17",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P017-N10": {
+  "visit_date": "2022-03-26",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P017-N11": {
+  "visit_date": "2022-10-22",
+  "annotations": []
+ },
+ "P017-N12": {
+  "visit_date": "2023-10-06",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P017-N13": {
+  "visit_date": "2024-03-29",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P017-N14": {
+  "visit_date": "2024-07-20",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P018-N01": {
+  "visit_date": "2018-12-10",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P018-N02": {
+  "visit_date": "2019-02-05",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P018-N03": {
+  "visit_date": "2019-07-03",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P018-N04": {
+  "visit_date": "2020-08-10",
+  "annotations": []
+ },
+ "P018-N05": {
+  "visit_date": "2020-11-08",
+  "annotations": []
+ },
+ "P018-N06": {
+  "visit_date": "2021-03-06",
+  "annotations": []
+ },
+ "P018-N07": {
+  "visit_date": "2022-08-01",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": true
+   },
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P018-N08": {
+  "visit_date": "2022-10-09",
+  "annotations": []
+ },
+ "P018-N09": {
+  "visit_date": "2023-05-09",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   },
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P018-N10": {
+  "visit_date": "2024-02-06",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   },
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P018-N11": {
+  "visit_date": "2024-06-17",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P018-N12": {
+  "visit_date": "2024-08-09",
+  "annotations": []
+ },
+ "P018-N13": {
+  "visit_date": "2024-09-16",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P018-N14": {
+  "visit_date": "2025-10-24",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P019-N01": {
+  "visit_date": "2018-05-10",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P019-N02": {
+  "visit_date": "2018-08-18",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P019-N03": {
+  "visit_date": "2018-10-20",
+  "annotations": []
+ },
+ "P019-N04": {
+  "visit_date": "2018-11-25",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P019-N05": {
+  "visit_date": "2019-08-22",
+  "annotations": []
+ },
+ "P019-N06": {
+  "visit_date": "2020-12-27",
+  "annotations": []
+ },
+ "P019-N07": {
+  "visit_date": "2021-06-30",
+  "annotations": []
+ },
+ "P019-N08": {
+  "visit_date": "2021-09-14",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P019-N09": {
+  "visit_date": "2022-03-02",
+  "annotations": []
+ },
+ "P019-N10": {
+  "visit_date": "2022-05-27",
+  "annotations": []
+ },
+ "P019-N11": {
+  "visit_date": "2022-09-18",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P019-N12": {
+  "visit_date": "2023-03-15",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": true
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": true
+   },
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P019-N13": {
+  "visit_date": "2023-08-04",
+  "annotations": []
+ },
+ "P019-N14": {
+  "visit_date": "2024-02-03",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P019-N15": {
+  "visit_date": "2025-10-25",
+  "annotations": []
+ },
+ "P020-N01": {
+  "visit_date": "2018-06-03",
+  "annotations": []
+ },
+ "P020-N02": {
+  "visit_date": "2018-08-18",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P020-N03": {
+  "visit_date": "2018-11-18",
+  "annotations": []
+ },
+ "P020-N04": {
+  "visit_date": "2019-01-26",
+  "annotations": []
+ },
+ "P020-N05": {
+  "visit_date": "2019-05-09",
+  "annotations": []
+ },
+ "P020-N06": {
+  "visit_date": "2020-07-17",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P020-N07": {
+  "visit_date": "2021-05-15",
+  "annotations": []
+ },
+ "P020-N08": {
+  "visit_date": "2021-10-01",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P020-N09": {
+  "visit_date": "2021-11-26",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P020-N10": {
+  "visit_date": "2022-04-12",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P020-N11": {
+  "visit_date": "2022-09-03",
+  "annotations": []
+ },
+ "P020-N12": {
+  "visit_date": "2022-11-14",
+  "annotations": []
+ },
+ "P020-N13": {
+  "visit_date": "2024-06-18",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P020-N14": {
+  "visit_date": "2024-09-04",
+  "annotations": []
+ },
+ "P020-N15": {
+  "visit_date": "2025-03-15",
+  "annotations": []
+ },
+ "P020-N16": {
+  "visit_date": "2025-04-27",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P021-N01": {
+  "visit_date": "2019-09-18",
+  "annotations": []
+ },
+ "P021-N02": {
+  "visit_date": "2020-09-11",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P021-N03": {
+  "visit_date": "2021-07-03",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P021-N04": {
+  "visit_date": "2021-09-10",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P021-N05": {
+  "visit_date": "2022-09-06",
+  "annotations": []
+ },
+ "P021-N06": {
+  "visit_date": "2022-10-13",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P021-N07": {
+  "visit_date": "2023-01-14",
+  "annotations": []
+ },
+ "P021-N08": {
+  "visit_date": "2024-01-30",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P021-N09": {
+  "visit_date": "2024-06-04",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P021-N10": {
+  "visit_date": "2024-10-15",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P022-N01": {
+  "visit_date": "2019-01-06",
+  "annotations": []
+ },
+ "P022-N02": {
+  "visit_date": "2019-04-09",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": true
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P022-N03": {
+  "visit_date": "2019-07-09",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P022-N04": {
+  "visit_date": "2020-01-07",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P022-N05": {
+  "visit_date": "2021-08-17",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P022-N06": {
+  "visit_date": "2022-05-30",
+  "annotations": []
+ },
+ "P022-N07": {
+  "visit_date": "2022-08-21",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P022-N08": {
+  "visit_date": "2023-01-25",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P022-N09": {
+  "visit_date": "2023-08-13",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P022-N10": {
+  "visit_date": "2024-02-17",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P022-N11": {
+  "visit_date": "2024-07-25",
+  "annotations": []
+ },
+ "P022-N12": {
+  "visit_date": "2025-03-31",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P022-N13": {
+  "visit_date": "2025-10-22",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P023-N01": {
+  "visit_date": "2018-04-29",
+  "annotations": []
+ },
+ "P023-N02": {
+  "visit_date": "2018-07-27",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P023-N03": {
+  "visit_date": "2018-10-19",
+  "annotations": []
+ },
+ "P023-N04": {
+  "visit_date": "2019-06-17",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P023-N05": {
+  "visit_date": "2019-08-03",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P023-N06": {
+  "visit_date": "2019-12-03",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P023-N07": {
+  "visit_date": "2020-09-29",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P023-N08": {
+  "visit_date": "2021-01-15",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P023-N09": {
+  "visit_date": "2021-03-06",
+  "annotations": []
+ },
+ "P023-N10": {
+  "visit_date": "2021-06-29",
+  "annotations": []
+ },
+ "P023-N11": {
+  "visit_date": "2021-10-19",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": true
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P023-N12": {
+  "visit_date": "2022-12-23",
+  "annotations": []
+ },
+ "P023-N13": {
+  "visit_date": "2024-01-24",
+  "annotations": []
+ },
+ "P023-N14": {
+  "visit_date": "2024-06-09",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P023-N15": {
+  "visit_date": "2024-11-16",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P024-N01": {
+  "visit_date": "2018-01-31",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P024-N02": {
+  "visit_date": "2020-02-01",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P024-N03": {
+  "visit_date": "2020-07-13",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P024-N04": {
+  "visit_date": "2021-12-26",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P024-N05": {
+  "visit_date": "2022-04-25",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P024-N06": {
+  "visit_date": "2022-10-06",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P024-N07": {
+  "visit_date": "2023-01-18",
+  "annotations": []
+ },
+ "P024-N08": {
+  "visit_date": "2023-08-03",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P024-N09": {
+  "visit_date": "2024-03-11",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P024-N10": {
+  "visit_date": "2024-06-25",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P024-N11": {
+  "visit_date": "2024-10-12",
+  "annotations": []
+ },
+ "P025-N01": {
+  "visit_date": "2018-06-25",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P025-N02": {
+  "visit_date": "2019-04-30",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P025-N03": {
+  "visit_date": "2019-09-03",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P025-N04": {
+  "visit_date": "2020-05-17",
+  "annotations": []
+ },
+ "P025-N05": {
+  "visit_date": "2022-07-19",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P025-N06": {
+  "visit_date": "2023-02-21",
+  "annotations": []
+ },
+ "P025-N07": {
+  "visit_date": "2023-11-13",
+  "annotations": []
+ },
+ "P025-N08": {
+  "visit_date": "2024-01-07",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P025-N09": {
+  "visit_date": "2024-07-01",
+  "annotations": []
+ },
+ "P025-N10": {
+  "visit_date": "2025-05-02",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P025-N11": {
+  "visit_date": "2025-06-26",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P025-N12": {
+  "visit_date": "2025-08-09",
+  "annotations": []
+ },
+ "P026-N01": {
+  "visit_date": "2018-08-11",
+  "annotations": []
+ },
+ "P026-N02": {
+  "visit_date": "2018-10-29",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P026-N03": {
+  "visit_date": "2019-08-17",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P026-N04": {
+  "visit_date": "2020-03-30",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P026-N05": {
+  "visit_date": "2020-06-22",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P026-N06": {
+  "visit_date": "2022-03-19",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P026-N07": {
+  "visit_date": "2022-08-17",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P026-N08": {
+  "visit_date": "2022-11-21",
+  "annotations": []
+ },
+ "P026-N09": {
+  "visit_date": "2023-04-14",
+  "annotations": []
+ },
+ "P026-N10": {
+  "visit_date": "2023-06-08",
+  "annotations": []
+ },
+ "P026-N11": {
+  "visit_date": "2024-07-24",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P027-N01": {
+  "visit_date": "2019-04-11",
+  "annotations": []
+ },
+ "P027-N02": {
+  "visit_date": "2019-07-21",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P027-N03": {
+  "visit_date": "2020-04-18",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P027-N04": {
+  "visit_date": "2020-09-04",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P027-N05": {
+  "visit_date": "2021-10-03",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P027-N06": {
+  "visit_date": "2023-05-14",
+  "annotations": []
+ },
+ "P027-N07": {
+  "visit_date": "2024-01-20",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P027-N08": {
+  "visit_date": "2024-04-15",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P027-N09": {
+  "visit_date": "2024-07-04",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   },
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P027-N10": {
+  "visit_date": "2025-04-12",
+  "annotations": []
+ },
+ "P028-N01": {
+  "visit_date": "2018-09-03",
+  "annotations": []
+ },
+ "P028-N02": {
+  "visit_date": "2020-02-04",
+  "annotations": []
+ },
+ "P028-N03": {
+  "visit_date": "2020-04-01",
+  "annotations": []
+ },
+ "P028-N04": {
+  "visit_date": "2020-05-22",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P028-N05": {
+  "visit_date": "2021-01-02",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P028-N06": {
+  "visit_date": "2022-11-12",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P028-N07": {
+  "visit_date": "2023-03-30",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P028-N08": {
+  "visit_date": "2023-08-07",
+  "annotations": []
+ },
+ "P028-N09": {
+  "visit_date": "2023-11-10",
+  "annotations": []
+ },
+ "P028-N10": {
+  "visit_date": "2023-12-23",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P028-N11": {
+  "visit_date": "2024-05-07",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P028-N12": {
+  "visit_date": "2024-06-20",
+  "annotations": []
+ },
+ "P028-N13": {
+  "visit_date": "2024-11-21",
+  "annotations": []
+ },
+ "P028-N14": {
+  "visit_date": "2025-01-11",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P028-N15": {
+  "visit_date": "2025-02-25",
+  "annotations": []
+ },
+ "P028-N16": {
+  "visit_date": "2025-05-30",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P029-N01": {
+  "visit_date": "2018-12-12",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P029-N02": {
+  "visit_date": "2019-12-12",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P029-N03": {
+  "visit_date": "2020-01-16",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   },
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P029-N04": {
+  "visit_date": "2020-03-24",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P029-N05": {
+  "visit_date": "2021-02-28",
+  "annotations": []
+ },
+ "P029-N06": {
+  "visit_date": "2021-09-03",
+  "annotations": []
+ },
+ "P029-N07": {
+  "visit_date": "2022-02-14",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P029-N08": {
+  "visit_date": "2022-05-31",
+  "annotations": []
+ },
+ "P029-N09": {
+  "visit_date": "2022-08-25",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": true
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P029-N10": {
+  "visit_date": "2024-08-26",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": true
+   },
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P029-N11": {
+  "visit_date": "2025-09-16",
+  "annotations": []
+ },
+ "P030-N01": {
+  "visit_date": "2019-01-19",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P030-N02": {
+  "visit_date": "2019-05-22",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P030-N03": {
+  "visit_date": "2019-08-30",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P030-N04": {
+  "visit_date": "2019-11-21",
+  "annotations": []
+ },
+ "P030-N05": {
+  "visit_date": "2020-01-10",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P030-N06": {
+  "visit_date": "2020-04-14",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P030-N07": {
+  "visit_date": "2021-01-22",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P030-N08": {
+  "visit_date": "2021-03-09",
+  "annotations": []
+ },
+ "P030-N09": {
+  "visit_date": "2021-12-02",
+  "annotations": []
+ },
+ "P030-N10": {
+  "visit_date": "2023-09-15",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P031-N01": {
+  "visit_date": "2018-01-24",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P031-N02": {
+  "visit_date": "2018-03-15",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P031-N03": {
+  "visit_date": "2018-11-17",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P031-N04": {
+  "visit_date": "2019-03-12",
+  "annotations": []
+ },
+ "P031-N05": {
+  "visit_date": "2020-01-29",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P031-N06": {
+  "visit_date": "2020-05-14",
+  "annotations": []
+ },
+ "P031-N07": {
+  "visit_date": "2020-11-28",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P031-N08": {
+  "visit_date": "2022-06-06",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P031-N09": {
+  "visit_date": "2022-11-12",
+  "annotations": []
+ },
+ "P031-N10": {
+  "visit_date": "2023-12-29",
+  "annotations": []
+ },
+ "P031-N11": {
+  "visit_date": "2024-10-10",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P031-N12": {
+  "visit_date": "2025-07-21",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P032-N01": {
+  "visit_date": "2018-01-27",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P032-N02": {
+  "visit_date": "2018-12-16",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P032-N03": {
+  "visit_date": "2019-05-19",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P032-N04": {
+  "visit_date": "2019-12-03",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P032-N05": {
+  "visit_date": "2020-04-06",
+  "annotations": []
+ },
+ "P032-N06": {
+  "visit_date": "2020-10-01",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P032-N07": {
+  "visit_date": "2021-03-20",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P032-N08": {
+  "visit_date": "2021-10-30",
+  "annotations": []
+ },
+ "P032-N09": {
+  "visit_date": "2022-08-30",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P032-N10": {
+  "visit_date": "2022-12-04",
+  "annotations": []
+ },
+ "P032-N11": {
+  "visit_date": "2023-04-25",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   },
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P032-N12": {
+  "visit_date": "2023-08-31",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P033-N01": {
+  "visit_date": "2018-03-19",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P033-N02": {
+  "visit_date": "2018-12-13",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P033-N03": {
+  "visit_date": "2020-01-07",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P033-N04": {
+  "visit_date": "2020-04-22",
+  "annotations": []
+ },
+ "P033-N05": {
+  "visit_date": "2020-10-01",
+  "annotations": []
+ },
+ "P033-N06": {
+  "visit_date": "2021-01-31",
+  "annotations": []
+ },
+ "P033-N07": {
+  "visit_date": "2021-08-05",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P033-N08": {
+  "visit_date": "2022-07-04",
+  "annotations": []
+ },
+ "P033-N09": {
+  "visit_date": "2022-12-25",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P033-N10": {
+  "visit_date": "2023-12-26",
+  "annotations": []
+ },
+ "P033-N11": {
+  "visit_date": "2024-07-01",
+  "annotations": []
+ },
+ "P033-N12": {
+  "visit_date": "2024-08-09",
+  "annotations": []
+ },
+ "P033-N13": {
+  "visit_date": "2024-10-21",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P034-N01": {
+  "visit_date": "2020-10-04",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P034-N02": {
+  "visit_date": "2020-12-06",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P034-N03": {
+  "visit_date": "2021-01-23",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P034-N04": {
+  "visit_date": "2021-07-27",
+  "annotations": []
+ },
+ "P034-N05": {
+  "visit_date": "2021-11-04",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P034-N06": {
+  "visit_date": "2023-01-29",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P034-N07": {
+  "visit_date": "2023-08-30",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P034-N08": {
+  "visit_date": "2024-11-05",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P034-N09": {
+  "visit_date": "2025-02-14",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P034-N10": {
+  "visit_date": "2025-06-05",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P034-N11": {
+  "visit_date": "2025-08-25",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P035-N01": {
+  "visit_date": "2019-06-01",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   },
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P035-N02": {
+  "visit_date": "2020-03-04",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P035-N03": {
+  "visit_date": "2020-11-15",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P035-N04": {
+  "visit_date": "2021-12-26",
+  "annotations": []
+ },
+ "P035-N05": {
+  "visit_date": "2022-09-21",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P035-N06": {
+  "visit_date": "2023-05-26",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P035-N07": {
+  "visit_date": "2023-09-16",
+  "annotations": []
+ },
+ "P035-N08": {
+  "visit_date": "2024-06-05",
+  "annotations": []
+ },
+ "P035-N09": {
+  "visit_date": "2024-08-25",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P035-N10": {
+  "visit_date": "2025-02-23",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P036-N01": {
+  "visit_date": "2018-08-07",
+  "annotations": []
+ },
+ "P036-N02": {
+  "visit_date": "2018-09-23",
+  "annotations": []
+ },
+ "P036-N03": {
+  "visit_date": "2018-11-30",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P036-N04": {
+  "visit_date": "2019-06-02",
+  "annotations": []
+ },
+ "P036-N05": {
+  "visit_date": "2019-09-01",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P036-N06": {
+  "visit_date": "2020-05-07",
+  "annotations": []
+ },
+ "P036-N07": {
+  "visit_date": "2020-10-09",
+  "annotations": []
+ },
+ "P036-N08": {
+  "visit_date": "2021-02-21",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   },
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P036-N09": {
+  "visit_date": "2021-09-04",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P036-N10": {
+  "visit_date": "2023-04-12",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P036-N11": {
+  "visit_date": "2023-06-26",
+  "annotations": []
+ },
+ "P036-N12": {
+  "visit_date": "2023-09-13",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P036-N13": {
+  "visit_date": "2024-07-20",
+  "annotations": []
+ },
+ "P036-N14": {
+  "visit_date": "2024-11-23",
+  "annotations": []
+ },
+ "P036-N15": {
+  "visit_date": "2025-01-22",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P036-N16": {
+  "visit_date": "2025-06-10",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P037-N01": {
+  "visit_date": "2018-09-18",
+  "annotations": []
+ },
+ "P037-N02": {
+  "visit_date": "2019-01-17",
+  "annotations": []
+ },
+ "P037-N03": {
+  "visit_date": "2019-03-21",
+  "annotations": []
+ },
+ "P037-N04": {
+  "visit_date": "2019-12-04",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P037-N05": {
+  "visit_date": "2020-02-11",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P037-N06": {
+  "visit_date": "2021-06-01",
+  "annotations": []
+ },
+ "P037-N07": {
+  "visit_date": "2021-09-08",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P037-N08": {
+  "visit_date": "2022-05-02",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P037-N09": {
+  "visit_date": "2023-01-24",
+  "annotations": []
+ },
+ "P037-N10": {
+  "visit_date": "2023-04-29",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P037-N11": {
+  "visit_date": "2023-12-30",
+  "annotations": []
+ },
+ "P037-N12": {
+  "visit_date": "2024-05-21",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P037-N13": {
+  "visit_date": "2025-03-02",
+  "annotations": []
+ },
+ "P038-N01": {
+  "visit_date": "2018-11-24",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P038-N02": {
+  "visit_date": "2019-11-19",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "resolved",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P038-N03": {
+  "visit_date": "2020-04-04",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "none",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P038-N04": {
+  "visit_date": "2021-01-18",
+  "annotations": []
+ },
+ "P038-N05": {
+  "visit_date": "2022-01-12",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P038-N06": {
+  "visit_date": "2022-03-28",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P038-N07": {
+  "visit_date": "2022-06-20",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "subclinical_hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P038-N08": {
+  "visit_date": "2023-01-11",
+  "annotations": [
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P038-N09": {
+  "visit_date": "2023-04-13",
+  "annotations": []
+ },
+ "P038-N10": {
+  "visit_date": "2023-05-25",
+  "annotations": []
+ },
+ "P038-N11": {
+  "visit_date": "2024-06-19",
+  "annotations": [
+   {
+    "condition": "anemia",
+    "state": "iron_deficiency_anemia",
+    "paraphrased": false
+   },
+   {
+    "condition": "hypothyroidism",
+    "state": "hypothyroidism",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P038-N12": {
+  "visit_date": "2025-02-16",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P039-N01": {
+  "visit_date": "2018-04-16",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P039-N02": {
+  "visit_date": "2019-05-19",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": true
+   },
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P039-N03": {
+  "visit_date": "2019-07-23",
+  "annotations": []
+ },
+ "P039-N04": {
+  "visit_date": "2020-10-15",
+  "annotations": []
+ },
+ "P039-N05": {
+  "visit_date": "2021-02-18",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P039-N06": {
+  "visit_date": "2022-02-18",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "none",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P039-N07": {
+  "visit_date": "2022-07-04",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": true
+   },
+   {
+    "condition": "asthma",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P039-N08": {
+  "visit_date": "2023-01-26",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P039-N09": {
+  "visit_date": "2023-05-01",
+  "annotations": []
+ },
+ "P039-N10": {
+  "visit_date": "2023-12-14",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P039-N11": {
+  "visit_date": "2024-10-01",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "prediabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P039-N12": {
+  "visit_date": "2024-12-07",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": false
+   },
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P039-N13": {
+  "visit_date": "2025-05-22",
+  "annotations": []
+ },
+ "P039-N14": {
+  "visit_date": "2025-09-11",
+  "annotations": [
+   {
+    "condition": "type2_diabetes",
+    "state": "type2_diabetes",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P040-N01": {
+  "visit_date": "2018-07-16",
+  "annotations": []
+ },
+ "P040-N02": {
+  "visit_date": "2019-02-10",
+  "annotations": []
+ },
+ "P040-N03": {
+  "visit_date": "2019-12-01",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P040-N04": {
+  "visit_date": "2020-01-11",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "none",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P040-N05": {
+  "visit_date": "2021-01-15",
+  "annotations": []
+ },
+ "P040-N06": {
+  "visit_date": "2021-07-26",
+  "annotations": []
+ },
+ "P040-N07": {
+  "visit_date": "2021-11-14",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P040-N08": {
+  "visit_date": "2022-05-15",
+  "annotations": []
+ },
+ "P040-N09": {
+  "visit_date": "2022-07-08",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "mild_intermittent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P040-N10": {
+  "visit_date": "2023-05-08",
+  "annotations": [
+   {
+    "condition": "hypertension",
+    "state": "stage2_hypertension",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P040-N11": {
+  "visit_date": "2023-12-18",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": true
+   },
+   {
+    "condition": "hypertension",
+    "state": "stage1_hypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P040-N12": {
+  "visit_date": "2024-03-09",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": false
+   }
+  ]
+ },
+ "P040-N13": {
+  "visit_date": "2024-09-01",
+  "annotations": [
+   {
+    "condition": "asthma",
+    "state": "moderate_persistent_asthma",
+    "paraphrased": true
+   },
+   {
+    "condition": "hypertension",
+    "state": "prehypertension",
+    "paraphrased": true
+   }
+  ]
+ },
+ "P040-N14": {
+  "visit_date": "2024-10-24",
+  "annotations": []
+ },
+ "P040-N15": {
+  "visit_date": "2025-08-08",
+  "annotations": []
+ }
+}

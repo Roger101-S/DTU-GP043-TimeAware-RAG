@@ -1,0 +1,3350 @@
+[
+ {
+  "query_id": "Q0001",
+  "patient_id": "P001",
+  "text": "What is the current hypertension status of patient P001?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P001-N09",
+  "superseded_note_ids": [
+   "P001-N01",
+   "P001-N04"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0002",
+  "patient_id": "P001",
+  "text": "What was the hypertension status of patient P001 as of July 2020?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2020-07-31",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P001-N04",
+  "superseded_note_ids": [
+   "P001-N01"
+  ],
+  "future_note_ids": [
+   "P001-N09"
+  ]
+ },
+ {
+  "query_id": "Q0003",
+  "patient_id": "P001",
+  "text": "What is the current hypothyroidism status of patient P001?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P001-N09",
+  "superseded_note_ids": [
+   "P001-N04",
+   "P001-N05",
+   "P001-N07"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0004",
+  "patient_id": "P001",
+  "text": "What was the hypothyroidism status of patient P001 as of September 2020?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2020-09-30",
+  "gold_state": "none",
+  "gold_note_id": "P001-N05",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P001-N07",
+   "P001-N08",
+   "P001-N09"
+  ]
+ },
+ {
+  "query_id": "Q0005",
+  "patient_id": "P002",
+  "text": "What is the latest recorded type 2 diabetes status for patient P002?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P002-N12",
+  "superseded_note_ids": [
+   "P002-N02"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0006",
+  "patient_id": "P002",
+  "text": "What was the type 2 diabetes status of patient P002 as of August 2021?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2021-08-31",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P002-N08",
+  "superseded_note_ids": [
+   "P002-N02"
+  ],
+  "future_note_ids": [
+   "P002-N12"
+  ]
+ },
+ {
+  "query_id": "Q0007",
+  "patient_id": "P002",
+  "text": "What is the latest recorded hypertension status for patient P002?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P002-N10",
+  "superseded_note_ids": [
+   "P002-N03",
+   "P002-N05"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0008",
+  "patient_id": "P002",
+  "text": "What was the hypertension status of patient P002 as of April 2019?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2019-04-30",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P002-N03",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P002-N05",
+   "P002-N07",
+   "P002-N09",
+   "P002-N10"
+  ]
+ },
+ {
+  "query_id": "Q0009",
+  "patient_id": "P003",
+  "text": "What is the latest recorded hypertension status for patient P003?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P003-N12",
+  "superseded_note_ids": [
+   "P003-N02"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0010",
+  "patient_id": "P003",
+  "text": "What was the hypertension status of patient P003 as of October 2018?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2018-10-31",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P003-N02",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P003-N09",
+   "P003-N12"
+  ]
+ },
+ {
+  "query_id": "Q0011",
+  "patient_id": "P003",
+  "text": "What is the current type 2 diabetes status of patient P003?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P003-N13",
+  "superseded_note_ids": [
+   "P003-N04",
+   "P003-N05",
+   "P003-N06",
+   "P003-N12"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0012",
+  "patient_id": "P003",
+  "text": "What was the type 2 diabetes status of patient P003 as of March 2021?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2021-03-31",
+  "gold_state": "none",
+  "gold_note_id": "P003-N05",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P003-N06",
+   "P003-N12",
+   "P003-N13"
+  ]
+ },
+ {
+  "query_id": "Q0013",
+  "patient_id": "P003",
+  "text": "What is the current anemia status of patient P003?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P003-N11",
+  "superseded_note_ids": [
+   "P003-N01",
+   "P003-N05"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0014",
+  "patient_id": "P003",
+  "text": "What was the anemia status of patient P003 as of February 2018?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2018-02-28",
+  "gold_state": "resolved",
+  "gold_note_id": "P003-N01",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P003-N05",
+   "P003-N06",
+   "P003-N07",
+   "P003-N11"
+  ]
+ },
+ {
+  "query_id": "Q0015",
+  "patient_id": "P004",
+  "text": "What is the latest recorded anemia status for patient P004?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P004-N14",
+  "superseded_note_ids": [
+   "P004-N05",
+   "P004-N07",
+   "P004-N13"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0016",
+  "patient_id": "P004",
+  "text": "What was the anemia status of patient P004 as of January 2020?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2020-01-31",
+  "gold_state": "none",
+  "gold_note_id": "P004-N05",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P004-N07",
+   "P004-N13",
+   "P004-N14"
+  ]
+ },
+ {
+  "query_id": "Q0017",
+  "patient_id": "P004",
+  "text": "What is the latest recorded asthma status for patient P004?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "moderate_persistent_asthma",
+  "gold_note_id": "P004-N12",
+  "superseded_note_ids": [
+   "P004-N01",
+   "P004-N09"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0018",
+  "patient_id": "P004",
+  "text": "What was the asthma status of patient P004 as of April 2018?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2018-04-30",
+  "gold_state": "none",
+  "gold_note_id": "P004-N01",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P004-N09",
+   "P004-N12"
+  ]
+ },
+ {
+  "query_id": "Q0019",
+  "patient_id": "P005",
+  "text": "What is the latest recorded asthma status for patient P005?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "moderate_persistent_asthma",
+  "gold_note_id": "P005-N12",
+  "superseded_note_ids": [
+   "P005-N01",
+   "P005-N02",
+   "P005-N04",
+   "P005-N10"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0020",
+  "patient_id": "P005",
+  "text": "What was the asthma status of patient P005 as of December 2018?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2018-12-31",
+  "gold_state": "mild_intermittent_asthma",
+  "gold_note_id": "P005-N01",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P005-N02",
+   "P005-N04",
+   "P005-N10",
+   "P005-N12"
+  ]
+ },
+ {
+  "query_id": "Q0021",
+  "patient_id": "P005",
+  "text": "What is the latest recorded anemia status for patient P005?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P005-N09",
+  "superseded_note_ids": [
+   "P005-N02"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0022",
+  "patient_id": "P005",
+  "text": "What was the anemia status of patient P005 as of May 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2019-05-31",
+  "gold_state": "resolved",
+  "gold_note_id": "P005-N02",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P005-N03",
+   "P005-N09"
+  ]
+ },
+ {
+  "query_id": "Q0023",
+  "patient_id": "P005",
+  "text": "What is the latest recorded type 2 diabetes status for patient P005?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P005-N10",
+  "superseded_note_ids": [
+   "P005-N01",
+   "P005-N04",
+   "P005-N05"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0024",
+  "patient_id": "P005",
+  "text": "What was the type 2 diabetes status of patient P005 as of April 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2022-04-30",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P005-N05",
+  "superseded_note_ids": [
+   "P005-N01"
+  ],
+  "future_note_ids": [
+   "P005-N08",
+   "P005-N10"
+  ]
+ },
+ {
+  "query_id": "Q0025",
+  "patient_id": "P006",
+  "text": "What is the latest recorded asthma status for patient P006?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "moderate_persistent_asthma",
+  "gold_note_id": "P006-N14",
+  "superseded_note_ids": [
+   "P006-N01",
+   "P006-N05"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0026",
+  "patient_id": "P006",
+  "text": "What was the asthma status of patient P006 as of April 2018?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2018-04-30",
+  "gold_state": "none",
+  "gold_note_id": "P006-N01",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P006-N05",
+   "P006-N14"
+  ]
+ },
+ {
+  "query_id": "Q0027",
+  "patient_id": "P006",
+  "text": "What is the latest recorded anemia status for patient P006?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P006-N09",
+  "superseded_note_ids": [
+   "P006-N03",
+   "P006-N04"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0028",
+  "patient_id": "P006",
+  "text": "What was the anemia status of patient P006 as of March 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2019-03-31",
+  "gold_state": "none",
+  "gold_note_id": "P006-N03",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P006-N04",
+   "P006-N09"
+  ]
+ },
+ {
+  "query_id": "Q0029",
+  "patient_id": "P006",
+  "text": "What is the current hypertension status of patient P006?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P006-N13",
+  "superseded_note_ids": [
+   "P006-N09",
+   "P006-N11",
+   "P006-N12"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0030",
+  "patient_id": "P006",
+  "text": "What was the hypertension status of patient P006 as of April 2024?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2024-04-30",
+  "gold_state": "none",
+  "gold_note_id": "P006-N09",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P006-N11",
+   "P006-N12",
+   "P006-N13"
+  ]
+ },
+ {
+  "query_id": "Q0031",
+  "patient_id": "P007",
+  "text": "What is the current hypothyroidism status of patient P007?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P007-N15",
+  "superseded_note_ids": [
+   "P007-N03",
+   "P007-N05"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0032",
+  "patient_id": "P007",
+  "text": "What was the hypothyroidism status of patient P007 as of September 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2019-09-30",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P007-N05",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P007-N12",
+   "P007-N15"
+  ]
+ },
+ {
+  "query_id": "Q0033",
+  "patient_id": "P007",
+  "text": "What is the latest recorded type 2 diabetes status for patient P007?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P007-N16",
+  "superseded_note_ids": [
+   "P007-N05",
+   "P007-N08"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0034",
+  "patient_id": "P007",
+  "text": "What was the type 2 diabetes status of patient P007 as of April 2021?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2021-04-30",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P007-N10",
+  "superseded_note_ids": [
+   "P007-N05",
+   "P007-N08"
+  ],
+  "future_note_ids": [
+   "P007-N16"
+  ]
+ },
+ {
+  "query_id": "Q0035",
+  "patient_id": "P007",
+  "text": "What is the latest recorded asthma status for patient P007?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "moderate_persistent_asthma",
+  "gold_note_id": "P007-N15",
+  "superseded_note_ids": [
+   "P007-N10",
+   "P007-N13"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0036",
+  "patient_id": "P007",
+  "text": "What was the asthma status of patient P007 as of April 2021?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2021-04-30",
+  "gold_state": "none",
+  "gold_note_id": "P007-N10",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P007-N13",
+   "P007-N15"
+  ]
+ },
+ {
+  "query_id": "Q0037",
+  "patient_id": "P008",
+  "text": "What is the latest recorded hypothyroidism status for patient P008?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P008-N13",
+  "superseded_note_ids": [
+   "P008-N03",
+   "P008-N06",
+   "P008-N10"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0038",
+  "patient_id": "P008",
+  "text": "What was the hypothyroidism status of patient P008 as of March 2020?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2020-03-31",
+  "gold_state": "none",
+  "gold_note_id": "P008-N03",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P008-N06",
+   "P008-N10",
+   "P008-N12",
+   "P008-N13"
+  ]
+ },
+ {
+  "query_id": "Q0039",
+  "patient_id": "P008",
+  "text": "What is the latest recorded type 2 diabetes status for patient P008?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P008-N12",
+  "superseded_note_ids": [
+   "P008-N01",
+   "P008-N04",
+   "P008-N07"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0040",
+  "patient_id": "P008",
+  "text": "What was the type 2 diabetes status of patient P008 as of March 2021?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2021-03-31",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P008-N07",
+  "superseded_note_ids": [
+   "P008-N01"
+  ],
+  "future_note_ids": [
+   "P008-N10",
+   "P008-N12"
+  ]
+ },
+ {
+  "query_id": "Q0041",
+  "patient_id": "P009",
+  "text": "What is the latest recorded hypertension status for patient P009?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P009-N13",
+  "superseded_note_ids": [
+   "P009-N03",
+   "P009-N04"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0042",
+  "patient_id": "P009",
+  "text": "What was the hypertension status of patient P009 as of August 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2019-08-31",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P009-N03",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P009-N04",
+   "P009-N07",
+   "P009-N13"
+  ]
+ },
+ {
+  "query_id": "Q0043",
+  "patient_id": "P009",
+  "text": "What is the latest recorded anemia status for patient P009?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P009-N12",
+  "superseded_note_ids": [
+   "P009-N01",
+   "P009-N03",
+   "P009-N04"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0044",
+  "patient_id": "P009",
+  "text": "What was the anemia status of patient P009 as of May 2018?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2018-05-31",
+  "gold_state": "none",
+  "gold_note_id": "P009-N01",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P009-N03",
+   "P009-N04",
+   "P009-N09",
+   "P009-N12"
+  ]
+ },
+ {
+  "query_id": "Q0045",
+  "patient_id": "P010",
+  "text": "What is the latest recorded hypertension status for patient P010?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P010-N13",
+  "superseded_note_ids": [
+   "P010-N07",
+   "P010-N08",
+   "P010-N09"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0046",
+  "patient_id": "P010",
+  "text": "What was the hypertension status of patient P010 as of June 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2022-06-30",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P010-N09",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P010-N13"
+  ]
+ },
+ {
+  "query_id": "Q0047",
+  "patient_id": "P010",
+  "text": "What is the latest recorded hypothyroidism status for patient P010?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P010-N16",
+  "superseded_note_ids": [
+   "P010-N07",
+   "P010-N14"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0048",
+  "patient_id": "P010",
+  "text": "What was the hypothyroidism status of patient P010 as of December 2021?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2021-12-31",
+  "gold_state": "none",
+  "gold_note_id": "P010-N07",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P010-N14",
+   "P010-N16"
+  ]
+ },
+ {
+  "query_id": "Q0049",
+  "patient_id": "P011",
+  "text": "What is the latest recorded hypertension status for patient P011?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P011-N11",
+  "superseded_note_ids": [
+   "P011-N07",
+   "P011-N09",
+   "P011-N10"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0050",
+  "patient_id": "P011",
+  "text": "What was the hypertension status of patient P011 as of August 2022?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2022-08-31",
+  "gold_state": "none",
+  "gold_note_id": "P011-N07",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P011-N09",
+   "P011-N10",
+   "P011-N11"
+  ]
+ },
+ {
+  "query_id": "Q0051",
+  "patient_id": "P011",
+  "text": "What is the latest recorded anemia status for patient P011?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "resolved",
+  "gold_note_id": "P011-N10",
+  "superseded_note_ids": [
+   "P011-N01",
+   "P011-N02",
+   "P011-N06"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0052",
+  "patient_id": "P011",
+  "text": "What was the anemia status of patient P011 as of May 2021?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2021-05-31",
+  "gold_state": "none",
+  "gold_note_id": "P011-N06",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P011-N09",
+   "P011-N10"
+  ]
+ },
+ {
+  "query_id": "Q0053",
+  "patient_id": "P011",
+  "text": "What is the current asthma status of patient P011?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "moderate_persistent_asthma",
+  "gold_note_id": "P011-N13",
+  "superseded_note_ids": [
+   "P011-N06",
+   "P011-N07",
+   "P011-N11",
+   "P011-N12"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0054",
+  "patient_id": "P011",
+  "text": "What was the asthma status of patient P011 as of May 2025?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2025-05-31",
+  "gold_state": "none",
+  "gold_note_id": "P011-N11",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P011-N12",
+   "P011-N13"
+  ]
+ },
+ {
+  "query_id": "Q0055",
+  "patient_id": "P012",
+  "text": "What is the latest recorded hypothyroidism status for patient P012?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P012-N10",
+  "superseded_note_ids": [
+   "P012-N01",
+   "P012-N03"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0056",
+  "patient_id": "P012",
+  "text": "What was the hypothyroidism status of patient P012 as of August 2020?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2020-08-31",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P012-N05",
+  "superseded_note_ids": [
+   "P012-N01",
+   "P012-N03"
+  ],
+  "future_note_ids": [
+   "P012-N10"
+  ]
+ },
+ {
+  "query_id": "Q0057",
+  "patient_id": "P012",
+  "text": "What is the latest recorded anemia status for patient P012?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P012-N10",
+  "superseded_note_ids": [
+   "P012-N05",
+   "P012-N06"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0058",
+  "patient_id": "P012",
+  "text": "What was the anemia status of patient P012 as of October 2020?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2020-10-31",
+  "gold_state": "resolved",
+  "gold_note_id": "P012-N06",
+  "superseded_note_ids": [
+   "P012-N05"
+  ],
+  "future_note_ids": [
+   "P012-N10"
+  ]
+ },
+ {
+  "query_id": "Q0059",
+  "patient_id": "P012",
+  "text": "What is the current hypertension status of patient P012?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P012-N07",
+  "superseded_note_ids": [
+   "P012-N01",
+   "P012-N05"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0060",
+  "patient_id": "P012",
+  "text": "What was the hypertension status of patient P012 as of August 2020?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2020-08-31",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P012-N05",
+  "superseded_note_ids": [
+   "P012-N01"
+  ],
+  "future_note_ids": [
+   "P012-N07"
+  ]
+ },
+ {
+  "query_id": "Q0061",
+  "patient_id": "P013",
+  "text": "What is the current hypertension status of patient P013?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P013-N11",
+  "superseded_note_ids": [
+   "P013-N03",
+   "P013-N08"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0062",
+  "patient_id": "P013",
+  "text": "What was the hypertension status of patient P013 as of December 2018?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2018-12-31",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P013-N03",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P013-N08",
+   "P013-N11"
+  ]
+ },
+ {
+  "query_id": "Q0063",
+  "patient_id": "P013",
+  "text": "What is the latest recorded hypothyroidism status for patient P013?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P013-N08",
+  "superseded_note_ids": [
+   "P013-N01",
+   "P013-N03"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0064",
+  "patient_id": "P013",
+  "text": "What was the hypothyroidism status of patient P013 as of February 2018?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2018-02-28",
+  "gold_state": "none",
+  "gold_note_id": "P013-N01",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P013-N03",
+   "P013-N08"
+  ]
+ },
+ {
+  "query_id": "Q0065",
+  "patient_id": "P013",
+  "text": "What is the current anemia status of patient P013?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P013-N13",
+  "superseded_note_ids": [
+   "P013-N01",
+   "P013-N07",
+   "P013-N11"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0066",
+  "patient_id": "P013",
+  "text": "What was the anemia status of patient P013 as of July 2019?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2019-07-31",
+  "gold_state": "resolved",
+  "gold_note_id": "P013-N07",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P013-N11",
+   "P013-N13"
+  ]
+ },
+ {
+  "query_id": "Q0067",
+  "patient_id": "P014",
+  "text": "What is the current type 2 diabetes status of patient P014?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P014-N15",
+  "superseded_note_ids": [
+   "P014-N02",
+   "P014-N05",
+   "P014-N08"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0068",
+  "patient_id": "P014",
+  "text": "What was the type 2 diabetes status of patient P014 as of January 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2022-01-31",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P014-N08",
+  "superseded_note_ids": [
+   "P014-N02"
+  ],
+  "future_note_ids": [
+   "P014-N10",
+   "P014-N15"
+  ]
+ },
+ {
+  "query_id": "Q0069",
+  "patient_id": "P014",
+  "text": "What is the latest recorded hypothyroidism status for patient P014?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P014-N11",
+  "superseded_note_ids": [
+   "P014-N03"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0070",
+  "patient_id": "P014",
+  "text": "What was the hypothyroidism status of patient P014 as of December 2018?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2018-12-31",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P014-N03",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P014-N07",
+   "P014-N09",
+   "P014-N11"
+  ]
+ },
+ {
+  "query_id": "Q0071",
+  "patient_id": "P015",
+  "text": "What is the current anemia status of patient P015?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P015-N14",
+  "superseded_note_ids": [
+   "P015-N05",
+   "P015-N06",
+   "P015-N11"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0072",
+  "patient_id": "P015",
+  "text": "What was the anemia status of patient P015 as of June 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2022-06-30",
+  "gold_state": "none",
+  "gold_note_id": "P015-N06",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P015-N11",
+   "P015-N14"
+  ]
+ },
+ {
+  "query_id": "Q0073",
+  "patient_id": "P015",
+  "text": "What is the current hypertension status of patient P015?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P015-N13",
+  "superseded_note_ids": [
+   "P015-N04"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0074",
+  "patient_id": "P015",
+  "text": "What was the hypertension status of patient P015 as of July 2024?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2024-07-31",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P015-N09",
+  "superseded_note_ids": [
+   "P015-N04"
+  ],
+  "future_note_ids": [
+   "P015-N13"
+  ]
+ },
+ {
+  "query_id": "Q0075",
+  "patient_id": "P016",
+  "text": "What is the latest recorded type 2 diabetes status for patient P016?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P016-N12",
+  "superseded_note_ids": [
+   "P016-N02"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0076",
+  "patient_id": "P016",
+  "text": "What was the type 2 diabetes status of patient P016 as of February 2018?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2018-02-28",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P016-N02",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P016-N05",
+   "P016-N12"
+  ]
+ },
+ {
+  "query_id": "Q0077",
+  "patient_id": "P016",
+  "text": "What is the current hypertension status of patient P016?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P016-N08",
+  "superseded_note_ids": [
+   "P016-N01"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0078",
+  "patient_id": "P016",
+  "text": "What was the hypertension status of patient P016 as of February 2018?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2018-02-28",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P016-N02",
+  "superseded_note_ids": [
+   "P016-N01"
+  ],
+  "future_note_ids": [
+   "P016-N03",
+   "P016-N08"
+  ]
+ },
+ {
+  "query_id": "Q0079",
+  "patient_id": "P016",
+  "text": "What is the latest recorded asthma status for patient P016?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "mild_intermittent_asthma",
+  "gold_note_id": "P016-N12",
+  "superseded_note_ids": [
+   "P016-N01",
+   "P016-N02"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0080",
+  "patient_id": "P016",
+  "text": "What was the asthma status of patient P016 as of July 2025?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2025-07-31",
+  "gold_state": "mild_intermittent_asthma",
+  "gold_note_id": "P016-N11",
+  "superseded_note_ids": [
+   "P016-N01",
+   "P016-N02"
+  ],
+  "future_note_ids": [
+   "P016-N12"
+  ]
+ },
+ {
+  "query_id": "Q0081",
+  "patient_id": "P017",
+  "text": "What is the current hypertension status of patient P017?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P017-N14",
+  "superseded_note_ids": [
+   "P017-N01"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0082",
+  "patient_id": "P017",
+  "text": "What was the hypertension status of patient P017 as of May 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2019-05-31",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P017-N03",
+  "superseded_note_ids": [
+   "P017-N01"
+  ],
+  "future_note_ids": [
+   "P017-N06",
+   "P017-N10",
+   "P017-N14"
+  ]
+ },
+ {
+  "query_id": "Q0083",
+  "patient_id": "P017",
+  "text": "What is the latest recorded asthma status for patient P017?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "mild_intermittent_asthma",
+  "gold_note_id": "P017-N13",
+  "superseded_note_ids": [
+   "P017-N06",
+   "P017-N12"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0084",
+  "patient_id": "P017",
+  "text": "What was the asthma status of patient P017 as of December 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2019-12-31",
+  "gold_state": "none",
+  "gold_note_id": "P017-N06",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P017-N12",
+   "P017-N13"
+  ]
+ },
+ {
+  "query_id": "Q0085",
+  "patient_id": "P017",
+  "text": "What is the latest recorded type 2 diabetes status for patient P017?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P017-N13",
+  "superseded_note_ids": [
+   "P017-N03",
+   "P017-N07",
+   "P017-N09"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0086",
+  "patient_id": "P017",
+  "text": "What was the type 2 diabetes status of patient P017 as of October 2023?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2023-10-31",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P017-N12",
+  "superseded_note_ids": [
+   "P017-N03",
+   "P017-N07",
+   "P017-N09"
+  ],
+  "future_note_ids": [
+   "P017-N13"
+  ]
+ },
+ {
+  "query_id": "Q0087",
+  "patient_id": "P018",
+  "text": "What is the current type 2 diabetes status of patient P018?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P018-N13",
+  "superseded_note_ids": [
+   "P018-N01",
+   "P018-N02"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0088",
+  "patient_id": "P018",
+  "text": "What was the type 2 diabetes status of patient P018 as of May 2023?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2023-05-31",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P018-N09",
+  "superseded_note_ids": [
+   "P018-N01",
+   "P018-N02"
+  ],
+  "future_note_ids": [
+   "P018-N10",
+   "P018-N13"
+  ]
+ },
+ {
+  "query_id": "Q0089",
+  "patient_id": "P018",
+  "text": "What is the current hypertension status of patient P018?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P018-N11",
+  "superseded_note_ids": [
+   "P018-N02",
+   "P018-N03",
+   "P018-N07"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0090",
+  "patient_id": "P018",
+  "text": "What was the hypertension status of patient P018 as of July 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2019-07-31",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P018-N03",
+  "superseded_note_ids": [
+   "P018-N02"
+  ],
+  "future_note_ids": [
+   "P018-N07",
+   "P018-N11"
+  ]
+ },
+ {
+  "query_id": "Q0091",
+  "patient_id": "P018",
+  "text": "What is the latest recorded asthma status for patient P018?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "moderate_persistent_asthma",
+  "gold_note_id": "P018-N14",
+  "superseded_note_ids": [
+   "P018-N07",
+   "P018-N09"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0092",
+  "patient_id": "P018",
+  "text": "What was the asthma status of patient P018 as of May 2023?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2023-05-31",
+  "gold_state": "mild_intermittent_asthma",
+  "gold_note_id": "P018-N09",
+  "superseded_note_ids": [
+   "P018-N07"
+  ],
+  "future_note_ids": [
+   "P018-N10",
+   "P018-N14"
+  ]
+ },
+ {
+  "query_id": "Q0093",
+  "patient_id": "P019",
+  "text": "What is the current type 2 diabetes status of patient P019?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P019-N14",
+  "superseded_note_ids": [
+   "P019-N01",
+   "P019-N02"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0094",
+  "patient_id": "P019",
+  "text": "What was the type 2 diabetes status of patient P019 as of May 2018?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2018-05-31",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P019-N01",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P019-N02",
+   "P019-N12",
+   "P019-N14"
+  ]
+ },
+ {
+  "query_id": "Q0095",
+  "patient_id": "P019",
+  "text": "What is the current hypothyroidism status of patient P019?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P019-N12",
+  "superseded_note_ids": [
+   "P019-N01"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0096",
+  "patient_id": "P019",
+  "text": "What was the hypothyroidism status of patient P019 as of August 2018?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2018-08-31",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P019-N02",
+  "superseded_note_ids": [
+   "P019-N01"
+  ],
+  "future_note_ids": [
+   "P019-N04",
+   "P019-N08",
+   "P019-N12"
+  ]
+ },
+ {
+  "query_id": "Q0097",
+  "patient_id": "P019",
+  "text": "What is the latest recorded anemia status for patient P019?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P019-N12",
+  "superseded_note_ids": [
+   "P019-N01"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0098",
+  "patient_id": "P019",
+  "text": "What was the anemia status of patient P019 as of May 2018?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2018-05-31",
+  "gold_state": "resolved",
+  "gold_note_id": "P019-N01",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P019-N11",
+   "P019-N12"
+  ]
+ },
+ {
+  "query_id": "Q0099",
+  "patient_id": "P020",
+  "text": "What is the current anemia status of patient P020?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P020-N10",
+  "superseded_note_ids": [
+   "P020-N02",
+   "P020-N06",
+   "P020-N09"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0100",
+  "patient_id": "P020",
+  "text": "What was the anemia status of patient P020 as of November 2021?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2021-11-30",
+  "gold_state": "resolved",
+  "gold_note_id": "P020-N09",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P020-N10"
+  ]
+ },
+ {
+  "query_id": "Q0101",
+  "patient_id": "P020",
+  "text": "What is the latest recorded hypertension status for patient P020?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P020-N16",
+  "superseded_note_ids": [
+   "P020-N08",
+   "P020-N13"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0102",
+  "patient_id": "P020",
+  "text": "What was the hypertension status of patient P020 as of October 2021?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2021-10-31",
+  "gold_state": "none",
+  "gold_note_id": "P020-N08",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P020-N13",
+   "P020-N16"
+  ]
+ },
+ {
+  "query_id": "Q0103",
+  "patient_id": "P021",
+  "text": "What is the latest recorded type 2 diabetes status for patient P021?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P021-N09",
+  "superseded_note_ids": [
+   "P021-N03",
+   "P021-N04",
+   "P021-N06"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0104",
+  "patient_id": "P021",
+  "text": "What was the type 2 diabetes status of patient P021 as of October 2022?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2022-10-31",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P021-N06",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P021-N08",
+   "P021-N09"
+  ]
+ },
+ {
+  "query_id": "Q0105",
+  "patient_id": "P021",
+  "text": "What is the latest recorded hypothyroidism status for patient P021?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P021-N10",
+  "superseded_note_ids": [
+   "P021-N02",
+   "P021-N09"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0106",
+  "patient_id": "P021",
+  "text": "What was the hypothyroidism status of patient P021 as of June 2024?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2024-06-30",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P021-N09",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P021-N10"
+  ]
+ },
+ {
+  "query_id": "Q0107",
+  "patient_id": "P022",
+  "text": "What is the current hypertension status of patient P022?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P022-N12",
+  "superseded_note_ids": [
+   "P022-N02",
+   "P022-N04"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0108",
+  "patient_id": "P022",
+  "text": "What was the hypertension status of patient P022 as of April 2019?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2019-04-30",
+  "gold_state": "none",
+  "gold_note_id": "P022-N02",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P022-N04",
+   "P022-N05",
+   "P022-N08",
+   "P022-N12"
+  ]
+ },
+ {
+  "query_id": "Q0109",
+  "patient_id": "P022",
+  "text": "What is the latest recorded type 2 diabetes status for patient P022?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P022-N13",
+  "superseded_note_ids": [
+   "P022-N02",
+   "P022-N08"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0110",
+  "patient_id": "P022",
+  "text": "What was the type 2 diabetes status of patient P022 as of January 2023?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2023-01-31",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P022-N08",
+  "superseded_note_ids": [
+   "P022-N02"
+  ],
+  "future_note_ids": [
+   "P022-N13"
+  ]
+ },
+ {
+  "query_id": "Q0111",
+  "patient_id": "P022",
+  "text": "What is the latest recorded anemia status for patient P022?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P022-N12",
+  "superseded_note_ids": [
+   "P022-N03",
+   "P022-N07",
+   "P022-N09",
+   "P022-N10"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0112",
+  "patient_id": "P022",
+  "text": "What was the anemia status of patient P022 as of August 2022?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2022-08-31",
+  "gold_state": "none",
+  "gold_note_id": "P022-N07",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P022-N09",
+   "P022-N10",
+   "P022-N12"
+  ]
+ },
+ {
+  "query_id": "Q0113",
+  "patient_id": "P023",
+  "text": "What is the latest recorded hypertension status for patient P023?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P023-N14",
+  "superseded_note_ids": [
+   "P023-N02"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0114",
+  "patient_id": "P023",
+  "text": "What was the hypertension status of patient P023 as of September 2020?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2020-09-30",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P023-N07",
+  "superseded_note_ids": [
+   "P023-N02"
+  ],
+  "future_note_ids": [
+   "P023-N14"
+  ]
+ },
+ {
+  "query_id": "Q0115",
+  "patient_id": "P023",
+  "text": "What is the current hypothyroidism status of patient P023?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P023-N15",
+  "superseded_note_ids": [
+   "P023-N04",
+   "P023-N05",
+   "P023-N06"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0116",
+  "patient_id": "P023",
+  "text": "What was the hypothyroidism status of patient P023 as of June 2019?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2019-06-30",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P023-N04",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P023-N05",
+   "P023-N06",
+   "P023-N11",
+   "P023-N15"
+  ]
+ },
+ {
+  "query_id": "Q0117",
+  "patient_id": "P023",
+  "text": "What is the current type 2 diabetes status of patient P023?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P023-N11",
+  "superseded_note_ids": [
+   "P023-N05",
+   "P023-N08"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0118",
+  "patient_id": "P023",
+  "text": "What was the type 2 diabetes status of patient P023 as of August 2019?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2019-08-31",
+  "gold_state": "none",
+  "gold_note_id": "P023-N05",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P023-N08",
+   "P023-N11"
+  ]
+ },
+ {
+  "query_id": "Q0119",
+  "patient_id": "P024",
+  "text": "What is the latest recorded hypothyroidism status for patient P024?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P024-N10",
+  "superseded_note_ids": [
+   "P024-N01",
+   "P024-N06"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0120",
+  "patient_id": "P024",
+  "text": "What was the hypothyroidism status of patient P024 as of October 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2022-10-31",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P024-N06",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P024-N09",
+   "P024-N10"
+  ]
+ },
+ {
+  "query_id": "Q0121",
+  "patient_id": "P024",
+  "text": "What is the current asthma status of patient P024?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "mild_intermittent_asthma",
+  "gold_note_id": "P024-N08",
+  "superseded_note_ids": [
+   "P024-N02",
+   "P024-N03",
+   "P024-N04"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0122",
+  "patient_id": "P024",
+  "text": "What was the asthma status of patient P024 as of February 2020?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2020-02-29",
+  "gold_state": "none",
+  "gold_note_id": "P024-N02",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P024-N03",
+   "P024-N04",
+   "P024-N05",
+   "P024-N08"
+  ]
+ },
+ {
+  "query_id": "Q0123",
+  "patient_id": "P025",
+  "text": "What is the latest recorded hypertension status for patient P025?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P025-N11",
+  "superseded_note_ids": [
+   "P025-N01",
+   "P025-N03",
+   "P025-N08",
+   "P025-N10"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0124",
+  "patient_id": "P025",
+  "text": "What was the hypertension status of patient P025 as of May 2025?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2025-05-31",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P025-N10",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P025-N11"
+  ]
+ },
+ {
+  "query_id": "Q0125",
+  "patient_id": "P025",
+  "text": "What is the latest recorded hypothyroidism status for patient P025?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P025-N08",
+  "superseded_note_ids": [
+   "P025-N01",
+   "P025-N02",
+   "P025-N03"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0126",
+  "patient_id": "P025",
+  "text": "What was the hypothyroidism status of patient P025 as of September 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2019-09-30",
+  "gold_state": "none",
+  "gold_note_id": "P025-N03",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P025-N05",
+   "P025-N08"
+  ]
+ },
+ {
+  "query_id": "Q0127",
+  "patient_id": "P026",
+  "text": "What is the current hypothyroidism status of patient P026?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P026-N07",
+  "superseded_note_ids": [
+   "P026-N03",
+   "P026-N06"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0128",
+  "patient_id": "P026",
+  "text": "What was the hypothyroidism status of patient P026 as of March 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2022-03-31",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P026-N06",
+  "superseded_note_ids": [
+   "P026-N03"
+  ],
+  "future_note_ids": [
+   "P026-N07"
+  ]
+ },
+ {
+  "query_id": "Q0129",
+  "patient_id": "P026",
+  "text": "What is the latest recorded anemia status for patient P026?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "resolved",
+  "gold_note_id": "P026-N11",
+  "superseded_note_ids": [
+   "P026-N02",
+   "P026-N04",
+   "P026-N05"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0130",
+  "patient_id": "P026",
+  "text": "What was the anemia status of patient P026 as of March 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2022-03-31",
+  "gold_state": "resolved",
+  "gold_note_id": "P026-N06",
+  "superseded_note_ids": [
+   "P026-N02",
+   "P026-N04",
+   "P026-N05"
+  ],
+  "future_note_ids": [
+   "P026-N11"
+  ]
+ },
+ {
+  "query_id": "Q0131",
+  "patient_id": "P027",
+  "text": "What is the current type 2 diabetes status of patient P027?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P027-N09",
+  "superseded_note_ids": [
+   "P027-N03"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0132",
+  "patient_id": "P027",
+  "text": "What was the type 2 diabetes status of patient P027 as of April 2020?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2020-04-30",
+  "gold_state": "none",
+  "gold_note_id": "P027-N03",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P027-N05",
+   "P027-N07",
+   "P027-N09"
+  ]
+ },
+ {
+  "query_id": "Q0133",
+  "patient_id": "P027",
+  "text": "What is the latest recorded asthma status for patient P027?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "moderate_persistent_asthma",
+  "gold_note_id": "P027-N09",
+  "superseded_note_ids": [
+   "P027-N02",
+   "P027-N04"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0134",
+  "patient_id": "P027",
+  "text": "What was the asthma status of patient P027 as of July 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2019-07-31",
+  "gold_state": "none",
+  "gold_note_id": "P027-N02",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P027-N04",
+   "P027-N08",
+   "P027-N09"
+  ]
+ },
+ {
+  "query_id": "Q0135",
+  "patient_id": "P028",
+  "text": "What is the current anemia status of patient P028?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P028-N14",
+  "superseded_note_ids": [
+   "P028-N07",
+   "P028-N10"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0136",
+  "patient_id": "P028",
+  "text": "What was the anemia status of patient P028 as of December 2023?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2023-12-31",
+  "gold_state": "resolved",
+  "gold_note_id": "P028-N10",
+  "superseded_note_ids": [
+   "P028-N07"
+  ],
+  "future_note_ids": [
+   "P028-N14"
+  ]
+ },
+ {
+  "query_id": "Q0137",
+  "patient_id": "P028",
+  "text": "What is the latest recorded type 2 diabetes status for patient P028?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P028-N16",
+  "superseded_note_ids": [
+   "P028-N07",
+   "P028-N14"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0138",
+  "patient_id": "P028",
+  "text": "What was the type 2 diabetes status of patient P028 as of January 2025?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2025-01-31",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P028-N14",
+  "superseded_note_ids": [
+   "P028-N07"
+  ],
+  "future_note_ids": [
+   "P028-N16"
+  ]
+ },
+ {
+  "query_id": "Q0139",
+  "patient_id": "P028",
+  "text": "What is the latest recorded hypertension status for patient P028?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P028-N11",
+  "superseded_note_ids": [
+   "P028-N04",
+   "P028-N05",
+   "P028-N06",
+   "P028-N10"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0140",
+  "patient_id": "P028",
+  "text": "What was the hypertension status of patient P028 as of January 2021?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2021-01-31",
+  "gold_state": "none",
+  "gold_note_id": "P028-N05",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P028-N06",
+   "P028-N10",
+   "P028-N11"
+  ]
+ },
+ {
+  "query_id": "Q0141",
+  "patient_id": "P029",
+  "text": "What is the latest recorded hypothyroidism status for patient P029?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P029-N10",
+  "superseded_note_ids": [
+   "P029-N04",
+   "P029-N09"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0142",
+  "patient_id": "P029",
+  "text": "What was the hypothyroidism status of patient P029 as of March 2020?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2020-03-31",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P029-N04",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P029-N09",
+   "P029-N10"
+  ]
+ },
+ {
+  "query_id": "Q0143",
+  "patient_id": "P029",
+  "text": "What is the current type 2 diabetes status of patient P029?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P029-N09",
+  "superseded_note_ids": [
+   "P029-N01",
+   "P029-N03",
+   "P029-N07"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0144",
+  "patient_id": "P029",
+  "text": "What was the type 2 diabetes status of patient P029 as of February 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2022-02-28",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P029-N07",
+  "superseded_note_ids": [
+   "P029-N01",
+   "P029-N03"
+  ],
+  "future_note_ids": [
+   "P029-N09"
+  ]
+ },
+ {
+  "query_id": "Q0145",
+  "patient_id": "P029",
+  "text": "What is the latest recorded hypertension status for patient P029?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P029-N10",
+  "superseded_note_ids": [
+   "P029-N01",
+   "P029-N02",
+   "P029-N03"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0146",
+  "patient_id": "P029",
+  "text": "What was the hypertension status of patient P029 as of December 2018?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2018-12-31",
+  "gold_state": "none",
+  "gold_note_id": "P029-N01",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P029-N02",
+   "P029-N03",
+   "P029-N10"
+  ]
+ },
+ {
+  "query_id": "Q0147",
+  "patient_id": "P030",
+  "text": "What is the current hypothyroidism status of patient P030?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P030-N10",
+  "superseded_note_ids": [
+   "P030-N01",
+   "P030-N02",
+   "P030-N03",
+   "P030-N07"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0148",
+  "patient_id": "P030",
+  "text": "What was the hypothyroidism status of patient P030 as of May 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2019-05-31",
+  "gold_state": "none",
+  "gold_note_id": "P030-N02",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P030-N03",
+   "P030-N07",
+   "P030-N10"
+  ]
+ },
+ {
+  "query_id": "Q0149",
+  "patient_id": "P030",
+  "text": "What is the latest recorded hypertension status for patient P030?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P030-N07",
+  "superseded_note_ids": [
+   "P030-N02",
+   "P030-N05",
+   "P030-N06"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0150",
+  "patient_id": "P030",
+  "text": "What was the hypertension status of patient P030 as of April 2020?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2020-04-30",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P030-N06",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P030-N07"
+  ]
+ },
+ {
+  "query_id": "Q0151",
+  "patient_id": "P031",
+  "text": "What is the latest recorded hypertension status for patient P031?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P031-N12",
+  "superseded_note_ids": [
+   "P031-N05",
+   "P031-N07",
+   "P031-N08"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0152",
+  "patient_id": "P031",
+  "text": "What was the hypertension status of patient P031 as of November 2020?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2020-11-30",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P031-N07",
+  "superseded_note_ids": [
+   "P031-N05"
+  ],
+  "future_note_ids": [
+   "P031-N08",
+   "P031-N11",
+   "P031-N12"
+  ]
+ },
+ {
+  "query_id": "Q0153",
+  "patient_id": "P031",
+  "text": "What is the current type 2 diabetes status of patient P031?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P031-N11",
+  "superseded_note_ids": [
+   "P031-N01",
+   "P031-N02",
+   "P031-N03"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0154",
+  "patient_id": "P031",
+  "text": "What was the type 2 diabetes status of patient P031 as of March 2018?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2018-03-31",
+  "gold_state": "none",
+  "gold_note_id": "P031-N02",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P031-N03",
+   "P031-N11"
+  ]
+ },
+ {
+  "query_id": "Q0155",
+  "patient_id": "P032",
+  "text": "What is the latest recorded asthma status for patient P032?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "mild_intermittent_asthma",
+  "gold_note_id": "P032-N11",
+  "superseded_note_ids": [
+   "P032-N03"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0156",
+  "patient_id": "P032",
+  "text": "What was the asthma status of patient P032 as of March 2021?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2021-03-31",
+  "gold_state": "mild_intermittent_asthma",
+  "gold_note_id": "P032-N07",
+  "superseded_note_ids": [
+   "P032-N03"
+  ],
+  "future_note_ids": [
+   "P032-N09",
+   "P032-N11"
+  ]
+ },
+ {
+  "query_id": "Q0157",
+  "patient_id": "P032",
+  "text": "What is the latest recorded anemia status for patient P032?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P032-N11",
+  "superseded_note_ids": [
+   "P032-N01",
+   "P032-N06",
+   "P032-N09"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0158",
+  "patient_id": "P032",
+  "text": "What was the anemia status of patient P032 as of October 2020?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2020-10-31",
+  "gold_state": "none",
+  "gold_note_id": "P032-N06",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P032-N09",
+   "P032-N11"
+  ]
+ },
+ {
+  "query_id": "Q0159",
+  "patient_id": "P032",
+  "text": "What is the current type 2 diabetes status of patient P032?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P032-N12",
+  "superseded_note_ids": [
+   "P032-N02",
+   "P032-N06",
+   "P032-N09",
+   "P032-N11"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0160",
+  "patient_id": "P032",
+  "text": "What was the type 2 diabetes status of patient P032 as of December 2018?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2018-12-31",
+  "gold_state": "none",
+  "gold_note_id": "P032-N02",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P032-N06",
+   "P032-N09",
+   "P032-N11",
+   "P032-N12"
+  ]
+ },
+ {
+  "query_id": "Q0161",
+  "patient_id": "P033",
+  "text": "What is the current anemia status of patient P033?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P033-N13",
+  "superseded_note_ids": [
+   "P033-N01",
+   "P033-N03",
+   "P033-N07"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0162",
+  "patient_id": "P033",
+  "text": "What was the anemia status of patient P033 as of August 2021?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2021-08-31",
+  "gold_state": "resolved",
+  "gold_note_id": "P033-N07",
+  "superseded_note_ids": [
+   "P033-N01"
+  ],
+  "future_note_ids": [
+   "P033-N13"
+  ]
+ },
+ {
+  "query_id": "Q0163",
+  "patient_id": "P033",
+  "text": "What is the current hypertension status of patient P033?",
+  "split": "dev",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage1_hypertension",
+  "gold_note_id": "P033-N13",
+  "superseded_note_ids": [
+   "P033-N02",
+   "P033-N09"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0164",
+  "patient_id": "P033",
+  "text": "What was the hypertension status of patient P033 as of December 2018?",
+  "split": "dev",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2018-12-31",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P033-N02",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P033-N09",
+   "P033-N13"
+  ]
+ },
+ {
+  "query_id": "Q0165",
+  "patient_id": "P034",
+  "text": "What is the current asthma status of patient P034?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "moderate_persistent_asthma",
+  "gold_note_id": "P034-N10",
+  "superseded_note_ids": [
+   "P034-N01",
+   "P034-N03",
+   "P034-N05"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0166",
+  "patient_id": "P034",
+  "text": "What was the asthma status of patient P034 as of January 2021?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2021-01-31",
+  "gold_state": "none",
+  "gold_note_id": "P034-N03",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P034-N05",
+   "P034-N06",
+   "P034-N10"
+  ]
+ },
+ {
+  "query_id": "Q0167",
+  "patient_id": "P034",
+  "text": "What is the current type 2 diabetes status of patient P034?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P034-N09",
+  "superseded_note_ids": [
+   "P034-N07",
+   "P034-N08"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0168",
+  "patient_id": "P034",
+  "text": "What was the type 2 diabetes status of patient P034 as of August 2023?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2023-08-31",
+  "gold_state": "none",
+  "gold_note_id": "P034-N07",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P034-N08",
+   "P034-N09"
+  ]
+ },
+ {
+  "query_id": "Q0169",
+  "patient_id": "P034",
+  "text": "What is the current anemia status of patient P034?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P034-N11",
+  "superseded_note_ids": [
+   "P034-N01",
+   "P034-N02",
+   "P034-N07",
+   "P034-N09"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0170",
+  "patient_id": "P034",
+  "text": "What was the anemia status of patient P034 as of December 2020?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2020-12-31",
+  "gold_state": "resolved",
+  "gold_note_id": "P034-N02",
+  "superseded_note_ids": [
+   "P034-N01"
+  ],
+  "future_note_ids": [
+   "P034-N07",
+   "P034-N09",
+   "P034-N11"
+  ]
+ },
+ {
+  "query_id": "Q0171",
+  "patient_id": "P035",
+  "text": "What is the latest recorded type 2 diabetes status for patient P035?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P035-N05",
+  "superseded_note_ids": [
+   "P035-N01",
+   "P035-N03"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0172",
+  "patient_id": "P035",
+  "text": "What was the type 2 diabetes status of patient P035 as of June 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2019-06-30",
+  "gold_state": "none",
+  "gold_note_id": "P035-N01",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P035-N03",
+   "P035-N05"
+  ]
+ },
+ {
+  "query_id": "Q0173",
+  "patient_id": "P035",
+  "text": "What is the latest recorded hypothyroidism status for patient P035?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P035-N10",
+  "superseded_note_ids": [
+   "P035-N02",
+   "P035-N03"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0174",
+  "patient_id": "P035",
+  "text": "What was the hypothyroidism status of patient P035 as of November 2020?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2020-11-30",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P035-N03",
+  "superseded_note_ids": [
+   "P035-N02"
+  ],
+  "future_note_ids": [
+   "P035-N09",
+   "P035-N10"
+  ]
+ },
+ {
+  "query_id": "Q0175",
+  "patient_id": "P035",
+  "text": "What is the current hypertension status of patient P035?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P035-N10",
+  "superseded_note_ids": [
+   "P035-N01",
+   "P035-N05",
+   "P035-N06"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0176",
+  "patient_id": "P035",
+  "text": "What was the hypertension status of patient P035 as of September 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2022-09-30",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P035-N05",
+  "superseded_note_ids": [
+   "P035-N01"
+  ],
+  "future_note_ids": [
+   "P035-N06",
+   "P035-N10"
+  ]
+ },
+ {
+  "query_id": "Q0177",
+  "patient_id": "P036",
+  "text": "What is the current hypothyroidism status of patient P036?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P036-N15",
+  "superseded_note_ids": [
+   "P036-N03",
+   "P036-N08"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0178",
+  "patient_id": "P036",
+  "text": "What was the hypothyroidism status of patient P036 as of February 2021?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2021-02-28",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P036-N08",
+  "superseded_note_ids": [
+   "P036-N03"
+  ],
+  "future_note_ids": [
+   "P036-N09",
+   "P036-N12",
+   "P036-N15"
+  ]
+ },
+ {
+  "query_id": "Q0179",
+  "patient_id": "P036",
+  "text": "What is the latest recorded anemia status for patient P036?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P036-N16",
+  "superseded_note_ids": [
+   "P036-N05",
+   "P036-N08",
+   "P036-N10"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0180",
+  "patient_id": "P036",
+  "text": "What was the anemia status of patient P036 as of September 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2019-09-30",
+  "gold_state": "none",
+  "gold_note_id": "P036-N05",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P036-N08",
+   "P036-N10",
+   "P036-N16"
+  ]
+ },
+ {
+  "query_id": "Q0181",
+  "patient_id": "P037",
+  "text": "What is the latest recorded hypothyroidism status for patient P037?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P037-N12",
+  "superseded_note_ids": [
+   "P037-N08",
+   "P037-N10"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0182",
+  "patient_id": "P037",
+  "text": "What was the hypothyroidism status of patient P037 as of May 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2022-05-31",
+  "gold_state": "none",
+  "gold_note_id": "P037-N08",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P037-N10",
+   "P037-N12"
+  ]
+ },
+ {
+  "query_id": "Q0183",
+  "patient_id": "P037",
+  "text": "What is the current type 2 diabetes status of patient P037?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P037-N07",
+  "superseded_note_ids": [
+   "P037-N04",
+   "P037-N05"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0184",
+  "patient_id": "P037",
+  "text": "What was the type 2 diabetes status of patient P037 as of December 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2019-12-31",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P037-N04",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P037-N05",
+   "P037-N07"
+  ]
+ },
+ {
+  "query_id": "Q0185",
+  "patient_id": "P038",
+  "text": "What is the latest recorded anemia status for patient P038?",
+  "split": "test",
+  "kind": "current",
+  "condition": "anemia",
+  "as_of": "2026-01-01",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P038-N11",
+  "superseded_note_ids": [
+   "P038-N01",
+   "P038-N02"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0186",
+  "patient_id": "P038",
+  "text": "What was the anemia status of patient P038 as of June 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "anemia",
+  "as_of": "2022-06-30",
+  "gold_state": "iron_deficiency_anemia",
+  "gold_note_id": "P038-N07",
+  "superseded_note_ids": [
+   "P038-N01",
+   "P038-N02"
+  ],
+  "future_note_ids": [
+   "P038-N11"
+  ]
+ },
+ {
+  "query_id": "Q0187",
+  "patient_id": "P038",
+  "text": "What is the current hypothyroidism status of patient P038?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypothyroidism",
+  "as_of": "2026-01-01",
+  "gold_state": "hypothyroidism",
+  "gold_note_id": "P038-N11",
+  "superseded_note_ids": [
+   "P038-N03",
+   "P038-N05",
+   "P038-N07"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0188",
+  "patient_id": "P038",
+  "text": "What was the hypothyroidism status of patient P038 as of June 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypothyroidism",
+  "as_of": "2022-06-30",
+  "gold_state": "subclinical_hypothyroidism",
+  "gold_note_id": "P038-N07",
+  "superseded_note_ids": [
+   "P038-N03"
+  ],
+  "future_note_ids": [
+   "P038-N08",
+   "P038-N11"
+  ]
+ },
+ {
+  "query_id": "Q0189",
+  "patient_id": "P038",
+  "text": "What is the latest recorded hypertension status for patient P038?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P038-N12",
+  "superseded_note_ids": [
+   "P038-N02",
+   "P038-N03",
+   "P038-N06",
+   "P038-N08"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0190",
+  "patient_id": "P038",
+  "text": "What was the hypertension status of patient P038 as of March 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2022-03-31",
+  "gold_state": "none",
+  "gold_note_id": "P038-N06",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P038-N08",
+   "P038-N12"
+  ]
+ },
+ {
+  "query_id": "Q0191",
+  "patient_id": "P039",
+  "text": "What is the latest recorded type 2 diabetes status for patient P039?",
+  "split": "test",
+  "kind": "current",
+  "condition": "type2_diabetes",
+  "as_of": "2026-01-01",
+  "gold_state": "type2_diabetes",
+  "gold_note_id": "P039-N14",
+  "superseded_note_ids": [
+   "P039-N01",
+   "P039-N06",
+   "P039-N11"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0192",
+  "patient_id": "P039",
+  "text": "What was the type 2 diabetes status of patient P039 as of October 2024?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "type2_diabetes",
+  "as_of": "2024-10-31",
+  "gold_state": "prediabetes",
+  "gold_note_id": "P039-N11",
+  "superseded_note_ids": [
+   "P039-N01",
+   "P039-N06"
+  ],
+  "future_note_ids": [
+   "P039-N14"
+  ]
+ },
+ {
+  "query_id": "Q0193",
+  "patient_id": "P039",
+  "text": "What is the current hypertension status of patient P039?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P039-N12",
+  "superseded_note_ids": [
+   "P039-N02",
+   "P039-N07",
+   "P039-N08"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0194",
+  "patient_id": "P039",
+  "text": "What was the hypertension status of patient P039 as of May 2019?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2019-05-31",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P039-N02",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P039-N07",
+   "P039-N08",
+   "P039-N10",
+   "P039-N12"
+  ]
+ },
+ {
+  "query_id": "Q0195",
+  "patient_id": "P039",
+  "text": "What is the latest recorded asthma status for patient P039?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "mild_intermittent_asthma",
+  "gold_note_id": "P039-N12",
+  "superseded_note_ids": [
+   "P039-N02",
+   "P039-N05",
+   "P039-N07"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0196",
+  "patient_id": "P039",
+  "text": "What was the asthma status of patient P039 as of December 2023?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2023-12-31",
+  "gold_state": "mild_intermittent_asthma",
+  "gold_note_id": "P039-N10",
+  "superseded_note_ids": [
+   "P039-N02",
+   "P039-N05",
+   "P039-N07"
+  ],
+  "future_note_ids": [
+   "P039-N12"
+  ]
+ },
+ {
+  "query_id": "Q0197",
+  "patient_id": "P040",
+  "text": "What is the latest recorded asthma status for patient P040?",
+  "split": "test",
+  "kind": "current",
+  "condition": "asthma",
+  "as_of": "2026-01-01",
+  "gold_state": "moderate_persistent_asthma",
+  "gold_note_id": "P040-N13",
+  "superseded_note_ids": [
+   "P040-N03",
+   "P040-N09"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0198",
+  "patient_id": "P040",
+  "text": "What was the asthma status of patient P040 as of July 2022?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "asthma",
+  "as_of": "2022-07-31",
+  "gold_state": "mild_intermittent_asthma",
+  "gold_note_id": "P040-N09",
+  "superseded_note_ids": [],
+  "future_note_ids": [
+   "P040-N11",
+   "P040-N12",
+   "P040-N13"
+  ]
+ },
+ {
+  "query_id": "Q0199",
+  "patient_id": "P040",
+  "text": "What is the latest recorded hypertension status for patient P040?",
+  "split": "test",
+  "kind": "current",
+  "condition": "hypertension",
+  "as_of": "2026-01-01",
+  "gold_state": "prehypertension",
+  "gold_note_id": "P040-N13",
+  "superseded_note_ids": [
+   "P040-N04",
+   "P040-N07",
+   "P040-N10",
+   "P040-N11"
+  ],
+  "future_note_ids": []
+ },
+ {
+  "query_id": "Q0200",
+  "patient_id": "P040",
+  "text": "What was the hypertension status of patient P040 as of May 2023?",
+  "split": "test",
+  "kind": "as_of",
+  "condition": "hypertension",
+  "as_of": "2023-05-31",
+  "gold_state": "stage2_hypertension",
+  "gold_note_id": "P040-N10",
+  "superseded_note_ids": [
+   "P040-N04"
+  ],
+  "future_note_ids": [
+   "P040-N11",
+   "P040-N13"
+  ]
+ }
+]

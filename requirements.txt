@@ -1,0 +1,21 @@
+# Core (Python 3.12+)
+spacy>=3.7
+dateparser>=1.2
+chromadb>=0.5
+langgraph>=0.2
+langchain-core>=0.3
+python-dotenv>=1.0
+numpy>=1.26
+pytest>=8.0
+
+# Embeddings named in the report (pulls in PyTorch; large download).
+# If you only want to try the pipeline quickly, set EMBEDDER=tfidf and skip this line.
+sentence-transformers>=3.0
+
+# LLM back-ends: install ONLY the one you use (see .env.example)
+# langchain-groq
+# langchain-google-genai
+# langchain-ollama
+
+# spaCy English model (install after the packages above):
+#   python -m spacy download en_core_web_sm
